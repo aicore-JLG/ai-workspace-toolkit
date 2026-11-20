@@ -1,0 +1,4 @@
+# Example only. No secret values. Prefer explicit --project/--config in the wrapper.
+setup:
+  project: YOUR_PROJECT
+  config: YOUR_CONFIG

@@ -1,0 +1,28 @@
+{
+  "example_only": true,
+  "instructions": "Replace the absolute root and copy only the chosen server to your host configuration. Nothing is auto-merged. Install its runtime first.",
+  "mcpServers": {
+    "basic-memory": {
+      "command": "python",
+      "args": [
+        "/ABSOLUTE/WORKSPACE/tools/integrations.py",
+        "run",
+        "basic-memory",
+        "--",
+        "mcp"
+      ]
+    },
+    "skilled": {
+      "command": "python",
+      "args": [
+        "/ABSOLUTE/WORKSPACE/tools/integrations.py",
+        "run",
+        "skilled",
+        "--",
+        "mcp",
+        "--workspace",
+        "/ABSOLUTE/WORKSPACE"
+      ]
+    }
+  }
+}

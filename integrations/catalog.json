@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "release": "0.4.1",
+  "integrations": [
+    {
+      "id": "ecc",
+      "repository": "affaan-m/ECC",
+      "source": "https://github.com/affaan-m/ECC",
+      "commit": "3f14a103a8694e51c1df9a806217a6d0b5f7a6f7",
+      "pushed_at": "2026-11-17T06:41:46Z",
+      "license": "MIT",
+      "purpose": "Learning, skill audits, compaction and evaluation",
+      "kind": "npm",
+      "executable": "ecc",
+      "bundled_paths": [
+        "skills/skill-stocktake",
+        "skills/continuous-learning-v2",
+        "skills/strategic-compact",
+        "skills/eval-harness"
+      ],
+      "setup_document": "integrations/guides/ecc.md",
+      "runtime_tested": false,
+      "package": "ecc-universal",
+      "version": "2.2.3",
+      "integrity": "sha512-2xDcL0lCJ9O7GTGm5fNqEZuuWsJOkvIi68/QWTho3DbKFta02EoycXFQh7TCrp4M4YFur0vKQOlOon4jgmJ55A=="
+    },
+    {
+      "id": "skills-cli",
+      "repository": "vercel-labs/skills",
+      "source": "https://github.com/vercel-labs/skills",
+      "commit": "57217cf86ba38148a57af9e90d14a4c049558330",
+      "pushed_at": "2026-11-17T00:58:04Z",
+      "license": "MIT",
+      "purpose": "Skill discovery, installation and version management",
+      "kind": "npm",
+      "executable": "skills",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/skills-cli.md",
+      "runtime_tested": false,
+      "package": "skills",
+      "version": "1.9.0",
+      "integrity": "sha512-8p27fa6SnpDLrGIpqbhNIHg8+uukR2lg/0qDoKPk85pU3/zyXiU67tEjvXHLrzybBefIAWpWZ2Oc+enlvSSVqg=="
+    },
+    {
+      "id": "skill-creator",
+      "repository": "anthropics/skills",
+      "source": "https://github.com/anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "pushed_at": "2026-11-16T14:22:50Z",
+      "license": "Apache-2.0",
+      "purpose": "Author and improve skills with evaluations",
+      "kind": "bundle",
+      "executable": null,
+      "bundled_paths": [
+        "skills/skill-creator"
+      ],
+      "setup_document": "integrations/guides/skill-creator.md",
+      "runtime_tested": false
+    },
+    {
+      "id": "skillspector",
+      "repository": "NVIDIA/SkillSpector",
+      "source": "https://github.com/NVIDIA/SkillSpector",
+      "commit": "48e0f942ea1f5fdb7aa096a6f65a0adeda2ecc4e",
+      "pushed_at": "2026-11-19T14:51:51Z",
+      "license": "Apache-2.0",
+      "purpose": "Static and optional model-based skill security scanning",
+      "kind": "python",
+      "executable": "skillspector",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/skillspector.md",
+      "runtime_tested": false,
+      "package": "skillspector[mcp]",
+      "requirement": "skillspector[mcp] @ git+https://github.com/NVIDIA/SkillSpector.git@48e0f942ea1f5fdb7aa096a6f65a0adeda2ecc4e",
+      "python": "3.13",
+      "constraints": [
+        "anthropic==0.112.0"
+      ],
+      "constraint_reason": "Matches the pinned upstream uv.lock. Windows long-path imports are handled by tools/python_cli.py."
+    },
+    {
+      "id": "basic-memory",
+      "repository": "basicmachines-co/basic-memory",
+      "source": "https://github.com/basicmachines-co/basic-memory",
+      "commit": "cbc00caeb060af3c0f9a8a1a6f5907b730a50e64",
+      "pushed_at": "2026-11-18T22:26:20Z",
+      "license": "AGPL-3.0",
+      "purpose": "Markdown knowledge and project memory through MCP",
+      "kind": "python",
+      "executable": "bm",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/basic-memory.md",
+      "runtime_tested": false,
+      "package": "basic-memory",
+      "requirement": "basic-memory @ git+https://github.com/basicmachines-co/basic-memory.git@cbc00caeb060af3c0f9a8a1a6f5907b730a50e64",
+      "python": "3.13"
+    },
+    {
+      "id": "claude-md-management",
+      "repository": "anthropics/claude-plugins-official",
+      "source": "https://github.com/anthropics/claude-plugins-official",
+      "commit": "df9699a55c56707e9948a32951ea356638ea8519",
+      "pushed_at": "2026-11-19T12:15:10Z",
+      "license": "Apache-2.0",
+      "purpose": "Maintain project instructions and capture lessons",
+      "kind": "bundle",
+      "executable": null,
+      "bundled_paths": [
+        "plugins/claude-md-management"
+      ],
+      "setup_document": "integrations/guides/claude-md-management.md",
+      "runtime_tested": false
+    },
+    {
+      "id": "skilled",
+      "repository": "DeadHead04/skillEd",
+      "source": "https://github.com/DeadHead04/skillEd",
+      "commit": "c914208a5ec50da6c299630b534fb47aed3f35a8",
+      "pushed_at": "2026-11-15T05:42:56Z",
+      "license": "Apache-2.0",
+      "purpose": "Skill evaluation, regression comparison and improvement workflow",
+      "kind": "release",
+      "executable": "skilled",
+      "bundled_paths": [
+        "skills/skilled-improve"
+      ],
+      "setup_document": "integrations/guides/skilled.md",
+      "runtime_tested": false,
+      "version": "v0.3.0",
+      "assets": {
+        "skilled_0.3.0_darwin-arm64.tar.gz": {
+          "url": "https://github.com/DeadHead04/skillEd/releases/download/v0.3.0/skilled_0.3.0_darwin-arm64.tar.gz",
+          "digest": "sha256:af432af790b3ee76ade192209d2783e3df168629f6e82db475b4eaa77b8ba306"
+        },
+        "skilled_0.3.0_darwin-x64.tar.gz": {
+          "url": "https://github.com/DeadHead04/skillEd/releases/download/v0.3.0/skilled_0.3.0_darwin-x64.tar.gz",
+          "digest": "sha256:229f5e1682fa768ff547c00ebbd9478358a4aab3ca09115ede64725f1baf0084"
+        },
+        "skilled_0.3.0_linux-arm64.tar.gz": {
+          "url": "https://github.com/DeadHead04/skillEd/releases/download/v0.3.0/skilled_0.3.0_linux-arm64.tar.gz",
+          "digest": "sha256:a8dec6a37c812d9e740ff8b113a3c2748934c70b44e39d4f2fa9143e51f783e8"
+        },
+        "skilled_0.3.0_linux-x64.tar.gz": {
+          "url": "https://github.com/DeadHead04/skillEd/releases/download/v0.3.0/skilled_0.3.0_linux-x64.tar.gz",
+          "digest": "sha256:a7d683df292e3b8ea72fad0955ce729e3c6e9a867c55d085cb58f99a9196c813"
+        },
+        "skilled_0.3.0_win32-arm64.zip": {
+          "url": "https://github.com/DeadHead04/skillEd/releases/download/v0.3.0/skilled_0.3.0_win32-arm64.zip",
+          "digest": "sha256:8d1a707d5cd13e857bb6b36788b71c6da7246bf7a92f3092c2ed71eedbf0f8d2"
+        },
+        "skilled_0.3.0_win32-x64.zip": {
+          "url": "https://github.com/DeadHead04/skillEd/releases/download/v0.3.0/skilled_0.3.0_win32-x64.zip",
+          "digest": "sha256:6810ab9572d029b76e3296ac5ccf7f208dbf9f708088ebd1930720bc49815159"
+        }
+      }
+    },
+    {
+      "id": "agent-reach",
+      "repository": "Panniantong/Agent-Reach",
+      "source": "https://github.com/Panniantong/Agent-Reach",
+      "commit": "c70ae6da5d39bc90e09ad2ae0575ccc89f31e284",
+      "pushed_at": "2026-11-08T02:17:48Z",
+      "license": "MIT",
+      "purpose": "Public web and platform research",
+      "kind": "python",
+      "executable": "agent-reach",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/agent-reach.md",
+      "runtime_tested": false,
+      "package": "agent-reach",
+      "requirement": "agent-reach @ git+https://github.com/Panniantong/Agent-Reach.git@c70ae6da5d39bc90e09ad2ae0575ccc89f31e284",
+      "python": "3.13"
+    },
+    {
+      "id": "agentshield",
+      "repository": "affaan-m/agentshield",
+      "source": "https://github.com/affaan-m/agentshield",
+      "commit": "b0891303bdcd6037376a94263d45cfd2ff3dfb98",
+      "pushed_at": "2026-10-18T02:39:18Z",
+      "license": "MIT",
+      "purpose": "Audit agent configuration, hooks and MCP permissions",
+      "kind": "npm",
+      "executable": "agentshield",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/agentshield.md",
+      "runtime_tested": false,
+      "package": "ecc-agentshield",
+      "version": "1.6.0",
+      "integrity": "sha512-lpeHG96DtEn7ofq7Iiyvq29piQOwParaiZOdDB206i4ZeCL4yjwT6xN5BSGI4yhCEAN0eO0f9F9hxHLBuRqf/g=="
+    },
+    {
+      "id": "agent-cleanup",
+      "repository": "luchasarie/agent-cleanup",
+      "source": "https://github.com/luchasarie/agent-cleanup",
+      "commit": "8f8d610937d0af4d603cfb589470fc48b59fc5bc",
+      "pushed_at": "2026-10-23T16:08:37Z",
+      "license": "MIT",
+      "purpose": "Inspect stale worktrees, caches and temporary artifacts",
+      "kind": "bundle",
+      "executable": null,
+      "bundled_paths": [
+        "skills/cleanup"
+      ],
+      "setup_document": "integrations/guides/agent-cleanup.md",
+      "runtime_tested": false
+    },
+    {
+      "id": "claude-mem",
+      "repository": "thedotmack/claude-mem",
+      "source": "https://github.com/thedotmack/claude-mem",
+      "commit": "4b48c5727ab62ee22e72a71b822a2fb225491fa2",
+      "pushed_at": "2026-11-19T12:28:28Z",
+      "license": "Apache-2.0",
+      "purpose": "Alternative automatic session memory",
+      "kind": "npm",
+      "executable": "claude-mem",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/claude-mem.md",
+      "runtime_tested": false,
+      "package": "claude-mem",
+      "version": "16.0.1",
+      "integrity": "sha512-PhkyWXr0huGI4z47/FpiZmWZy+9skWO/hRjx+Aa8XD385njg/DFO7SL5PFjm79VaFXDGQ/8Mol2N+yUlyINEPw=="
+    },
+    {
+      "id": "desloppify",
+      "repository": "peteromallet/desloppify",
+      "source": "https://github.com/peteromallet/desloppify",
+      "commit": "3a7735d531a96b6a226bfbdc9fd662b14195f857",
+      "pushed_at": "2026-10-27T12:47:12Z",
+      "license": "OSNL-0.2",
+      "purpose": "Code quality scan and improvement loop",
+      "kind": "external",
+      "executable": "desloppify",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/desloppify.md",
+      "runtime_tested": false
+    },
+    {
+      "id": "skill-eval-harness",
+      "repository": "adewale/skill-eval-harness",
+      "source": "https://github.com/adewale/skill-eval-harness",
+      "commit": "64bc5b2bbc59e439b403bfc1c25af567783a7c82",
+      "pushed_at": "2026-11-15T00:47:57Z",
+      "license": "MIT",
+      "purpose": "Paired skill evaluations and holdouts",
+      "kind": "python",
+      "executable": "skill-benchmark",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/skill-eval-harness.md",
+      "runtime_tested": false,
+      "package": "skill-eval-harness",
+      "requirement": "skill-eval-harness @ git+https://github.com/adewale/skill-eval-harness.git@64bc5b2bbc59e439b403bfc1c25af567783a7c82",
+      "python": "3.13"
+    },
+    {
+      "id": "code-simplifier",
+      "repository": "anthropics/claude-plugins-official",
+      "source": "https://github.com/anthropics/claude-plugins-official",
+      "commit": "df9699a55c56707e9948a32951ea356638ea8519",
+      "pushed_at": "2026-11-19T12:15:10Z",
+      "license": "Apache-2.0",
+      "purpose": "Refine recently changed code",
+      "kind": "bundle",
+      "executable": null,
+      "bundled_paths": [
+        "plugins/code-simplifier"
+      ],
+      "setup_document": "integrations/guides/code-simplifier.md",
+      "runtime_tested": false
+    },
+    {
+      "id": "superpowers",
+      "repository": "obra/superpowers",
+      "source": "https://github.com/obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "pushed_at": "2026-11-03T23:24:58Z",
+      "license": "MIT",
+      "purpose": "Optional development workflow skill pack",
+      "kind": "bundle",
+      "executable": null,
+      "bundled_paths": [
+        "skills"
+      ],
+      "setup_document": "integrations/guides/superpowers.md",
+      "runtime_tested": false
+    },
+    {
+      "id": "doppler",
+      "repository": "DopplerHQ/cli",
+      "source": "https://github.com/DopplerHQ/cli",
+      "commit": "4af248f8626b13da8fef4e307c6e2377d124a287",
+      "pushed_at": "2026-11-19T16:44:38Z",
+      "license": "Apache-2.0",
+      "purpose": "Inject project secrets into a child process",
+      "kind": "external",
+      "executable": "doppler",
+      "bundled_paths": [],
+      "setup_document": "integrations/guides/doppler.md",
+      "runtime_tested": false
+    }
+  ]
+}

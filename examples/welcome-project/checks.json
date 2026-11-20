@@ -1,0 +1,5 @@
+{
+  "command": ["{python}", "-B", "-m", "unittest", "test_summary.py"],
+  "inputs": ["summary.py", "tasks.json", "test_summary.py", "PROJECT.md"],
+  "timeout_seconds": 30
+}

@@ -1,0 +1,1462 @@
+{
+  "schema_version": 1,
+  "version": "0.5.0-candidate-r7",
+  "files": [
+    {
+      "path": ".agents/skills/agent-search/SKILL.md",
+      "sha256": "0bded73c16823cea16d7f992a6ee71140f476478ce29424ce625742d80a38c37"
+    },
+    {
+      "path": ".agents/skills/browser-review/SKILL.md",
+      "sha256": "89207852d0429f3506d208d60f3777cfdd2325c327c7310c3ca417a1f3484950"
+    },
+    {
+      "path": ".agents/skills/doppler/SKILL.md",
+      "sha256": "36624dbe20bf76f34566d6549d52880736008928480adb76859a7edd9f2b5ac6"
+    },
+    {
+      "path": ".agents/skills/integration-manager/SKILL.md",
+      "sha256": "e95055d1426c3c062c465fbb4c722d39b13e779e2527c884df49bf3b48f93a7d"
+    },
+    {
+      "path": ".agents/skills/learn-mode/SKILL.md",
+      "sha256": "ba58651e5d331ef014bc5d259b071279e8893a8944b6b7f44379d22ffd347930"
+    },
+    {
+      "path": ".agents/skills/learn-mode/agents/openai.yaml",
+      "sha256": "cda9cbb310bac1601536da91ec31e1448800c7f0f1863625b1e9cf2d3c3a0dad"
+    },
+    {
+      "path": ".agents/skills/memory-manager/SKILL.md",
+      "sha256": "96d931ca5a424867c855b77281083fcf70e5eb7962198f7bd8f2f12d7ed93f00"
+    },
+    {
+      "path": ".agents/skills/project-start/SKILL.md",
+      "sha256": "b9e0f1ec349b96feaeb21bc69cbad8e04d0ac180d3ddd8e55469b4ded8987c56"
+    },
+    {
+      "path": ".agents/skills/research-brief/SKILL.md",
+      "sha256": "cec6fde034be4edf9c6979f6d754aa268263101ae793b284e1237114ede5253e"
+    },
+    {
+      "path": ".agents/skills/session-handoff/SKILL.md",
+      "sha256": "b36ea2d6afc6921174a4ffe046164a34181acd5e9b46ae143876d730e08b5417"
+    },
+    {
+      "path": ".agents/skills/skill-improvement/SKILL.md",
+      "sha256": "ce94b27ab91bf98d2ad16f4f71635c71b3c4b48546414b3893600e979eb3b9de"
+    },
+    {
+      "path": ".agents/skills/verify-work/SKILL.md",
+      "sha256": "624e804c2041da3896c77228104a8e1b4cc66b9d48547f00375470a2b4d4f439"
+    },
+    {
+      "path": ".agents/skills/workspace-code-cleanup/SKILL.md",
+      "sha256": "3e27047faab63dcd5d53d9440756c98149143839ea9e54c3241d53e625ae6eb8"
+    },
+    {
+      "path": ".agents/skills/workspace-doctor/SKILL.md",
+      "sha256": "c22a87e254789debb02b6795a8d9c35015a536c84e4b20bfcb03406de503ad07"
+    },
+    {
+      "path": ".agents/skills/workspace-maintenance/SKILL.md",
+      "sha256": "42a1a245aaff1502d10e21394adce08682ecb7d109b477b075f2669b4003c63d"
+    },
+    {
+      "path": ".agents/skills/workspace-security/SKILL.md",
+      "sha256": "6be32e8fe02fc862d26ca912d191e835de5ee7b499676202d083a7b79832f540"
+    },
+    {
+      "path": ".claude/skills/agent-search/SKILL.md",
+      "sha256": "0bded73c16823cea16d7f992a6ee71140f476478ce29424ce625742d80a38c37"
+    },
+    {
+      "path": ".claude/skills/browser-review/SKILL.md",
+      "sha256": "89207852d0429f3506d208d60f3777cfdd2325c327c7310c3ca417a1f3484950"
+    },
+    {
+      "path": ".claude/skills/doppler/SKILL.md",
+      "sha256": "36624dbe20bf76f34566d6549d52880736008928480adb76859a7edd9f2b5ac6"
+    },
+    {
+      "path": ".claude/skills/integration-manager/SKILL.md",
+      "sha256": "e95055d1426c3c062c465fbb4c722d39b13e779e2527c884df49bf3b48f93a7d"
+    },
+    {
+      "path": ".claude/skills/learn-mode/SKILL.md",
+      "sha256": "10cbc4e15c803b4fb030caf87ddcdeb4ac78206ba52190e2b127963bdf28fe42"
+    },
+    {
+      "path": ".claude/skills/memory-manager/SKILL.md",
+      "sha256": "96d931ca5a424867c855b77281083fcf70e5eb7962198f7bd8f2f12d7ed93f00"
+    },
+    {
+      "path": ".claude/skills/project-start/SKILL.md",
+      "sha256": "b9e0f1ec349b96feaeb21bc69cbad8e04d0ac180d3ddd8e55469b4ded8987c56"
+    },
+    {
+      "path": ".claude/skills/research-brief/SKILL.md",
+      "sha256": "cec6fde034be4edf9c6979f6d754aa268263101ae793b284e1237114ede5253e"
+    },
+    {
+      "path": ".claude/skills/session-handoff/SKILL.md",
+      "sha256": "b36ea2d6afc6921174a4ffe046164a34181acd5e9b46ae143876d730e08b5417"
+    },
+    {
+      "path": ".claude/skills/skill-improvement/SKILL.md",
+      "sha256": "ce94b27ab91bf98d2ad16f4f71635c71b3c4b48546414b3893600e979eb3b9de"
+    },
+    {
+      "path": ".claude/skills/verify-work/SKILL.md",
+      "sha256": "624e804c2041da3896c77228104a8e1b4cc66b9d48547f00375470a2b4d4f439"
+    },
+    {
+      "path": ".claude/skills/workspace-code-cleanup/SKILL.md",
+      "sha256": "3e27047faab63dcd5d53d9440756c98149143839ea9e54c3241d53e625ae6eb8"
+    },
+    {
+      "path": ".claude/skills/workspace-doctor/SKILL.md",
+      "sha256": "c22a87e254789debb02b6795a8d9c35015a536c84e4b20bfcb03406de503ad07"
+    },
+    {
+      "path": ".claude/skills/workspace-maintenance/SKILL.md",
+      "sha256": "42a1a245aaff1502d10e21394adce08682ecb7d109b477b075f2669b4003c63d"
+    },
+    {
+      "path": ".claude/skills/workspace-security/SKILL.md",
+      "sha256": "6be32e8fe02fc862d26ca912d191e835de5ee7b499676202d083a7b79832f540"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5347fcb8bf10e90a7c9c900426f8fce51ff0b08acdfeb2144229d9ffe7c04850"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "f9893f40b8b129d2e23a2ce4cb9ac10b2585f76dc8c0359ab92d5a1c8f7078db"
+    },
+    {
+      "path": "Apps/AREA.md",
+      "sha256": "38f65bdb0a88e3beabcb255cc0a6a361c5e743c9cf51f6b9ab98840c0b8b2ae5"
+    },
+    {
+      "path": "Brand/README.md",
+      "sha256": "246834b104a52979d588947db7437eec41f3b12d130059cb5dc4f1faec9bbb28"
+    },
+    {
+      "path": "Brand/brand-brief.md",
+      "sha256": "6bc41d19a9e358fa2a41cfa65c3c05439b12c0b68ceac5b574f4b28200e221bd"
+    },
+    {
+      "path": "Brand/example.md",
+      "sha256": "f34f95d49ea8ee228b946b374e5d2d354a6aeaf85fa3c92ac93738c534a8f316"
+    },
+    {
+      "path": "Brand/story-register.md",
+      "sha256": "d62e41c9a59d06aa6be8e4399f28dc3c2a2adcdb1a066da8b0bff51ad959fee2"
+    },
+    {
+      "path": "Brand/voice-guide.md",
+      "sha256": "a79dc8ecfa04003a0d1c8dad8378b7e11fd56064acf12d4ddcf98957d6456660"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "a3259a28f0dad2c2e732c1b36cb36e69eaf28ef474ce99fb1d043b9464a3981c"
+    },
+    {
+      "path": "Clients/AREA.md",
+      "sha256": "86b6f655708e775fc21f5ec57b4616022e127eb1a61572f39d9f311e1fc1a84c"
+    },
+    {
+      "path": "Knowledge/INDEX.md",
+      "sha256": "49e84708c4e7b31b6724d0eb005c324ba7f1452400400db16ecd1513327ddf50"
+    },
+    {
+      "path": "Knowledge/source-template.md",
+      "sha256": "9a492b12c5e492c268da164f32534254b4a0ba51a6b8b1b49830b0283737bacf"
+    },
+    {
+      "path": "Memory/README.md",
+      "sha256": "4b418c0a9678a83a78e79facb04e6250126d88163b627f9f1bed3c7234bd4faa"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b3a10dcd49ad60265e4971e15a34b9c14902c170e0e06c306bdd4093cbb023ce"
+    },
+    {
+      "path": "SESSION-STATE.md",
+      "sha256": "acae97fce0a4cfe5e8e1d67c795dab62b1800b4c1ec2c1cbca8f049690c950df"
+    },
+    {
+      "path": "SETUP-PROMPT.md",
+      "sha256": "071e1952992dea65e03ed0639be6305ad17ff7366378265b4a40539261e6a3a0"
+    },
+    {
+      "path": "Security/README.md",
+      "sha256": "65f535f864ac2c8b36831ac7ac00d5314ab319d4b51ff5b9a6c4a53718b591c1"
+    },
+    {
+      "path": "Systems/AREA.md",
+      "sha256": "44f24a2336fe01fe4cd0b72dd95f333ba8dae8dffdb191e8f780877e42d6e951"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "f76faf1902a4f88e5ba18695c8cb081d9742475375d52bdf4ff4480f9580ca5f"
+    },
+    {
+      "path": "Ventures/AREA.md",
+      "sha256": "8cc5d7482cb4e5145e2f2bafd97ffb3d488d235c0f8eb8e4278e65f29bdcf33e"
+    },
+    {
+      "path": "WHERE-THINGS-LIVE.md",
+      "sha256": "073780861ef48c25b32580713ab009b5df3faa6a87147add2dd836aaa3402d71"
+    },
+    {
+      "path": "WORKSPACE-RULES.md",
+      "sha256": "4508d81b352b5c011877f4d0ad3aa69d486cb98b82bfba80d190a0a7cea1988f"
+    },
+    {
+      "path": "Websites/AREA.md",
+      "sha256": "673a70882573b24dc9ae70a06bfba0abf11c0cd04d2c1dbca6a57cc8d12ca4a3"
+    },
+    {
+      "path": "checks.json",
+      "sha256": "206a32e525af991cec6b73dc8bc4a037c9f10ce7ae73aa4525364de5d96ad6a0"
+    },
+    {
+      "path": "config/doppler.example.yaml",
+      "sha256": "c9f0eb7da7f2160050414cee8b42ed1205621ce1063be756486d9e3b909c515a"
+    },
+    {
+      "path": "config/foundation.json",
+      "sha256": "aeff049b613ef92fc5b9d6c5accff53c596074a7ead6d8ba136f1cddf963c406"
+    },
+    {
+      "path": "config/mcp.example.json",
+      "sha256": "8a19087891944bd072dc640dc42a371b46fa95db2e854dc3c22f684512e68a3c"
+    },
+    {
+      "path": "config/orchestration.codex.example.json",
+      "sha256": "72f141f9392a5c0e023e4774cb5840253caf4e3014a229c6fc2a64df909723b1"
+    },
+    {
+      "path": "config/orchestration.example.json",
+      "sha256": "2b0c2ed9d8f17c421ef68f8c57b2f6042f1fb2846b5e1214ff11557bebb7832a"
+    },
+    {
+      "path": "config/workspace.example.json",
+      "sha256": "d556d8209d9365e1c7b68075bf6605d647fa5c6d35962cbb1ee5187fe2d61536"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "sha256": "df9aa9d12f04bf37c5803c6eb8866c3e22d00b65815cece47139c60504412dc6"
+    },
+    {
+      "path": "docs/CAPABILITIES.md",
+      "sha256": "b610b208c8d247278c34c38731dc4e720bd3db4ebba97b684395c88937a3ca87"
+    },
+    {
+      "path": "docs/COMMANDS.md",
+      "sha256": "bafd7f8d323a9344af29b2c4206b4c801c1c4d6d2abc8e973a1cb02bb24db274"
+    },
+    {
+      "path": "docs/DOPPLER.md",
+      "sha256": "9339426e45a74bfb037ac56fb73aaa3bc788f5e793f50a89057e3d08f66c8d2c"
+    },
+    {
+      "path": "docs/EXECUTION-CORE.md",
+      "sha256": "f5980c3c23fb656ee755ef0353643635b1c7785cc0812b319c7c96322fae640a"
+    },
+    {
+      "path": "docs/FOLDER-TOUR.md",
+      "sha256": "c356cedc2925b9d9ba53b1f7fe816db668adc5e99692dde93f9e5662848bad2a"
+    },
+    {
+      "path": "docs/FOUNDATION-ACCEPTANCE.md",
+      "sha256": "7d9c5f2d9bfc518f219114b37abf6b27a08ce6cbd1e49bfcec531e9109003a7a"
+    },
+    {
+      "path": "docs/FOUNDATION.md",
+      "sha256": "9f53a96fd17a5d4f7c17a6080909ef2c99c4e4d8d89a07a9e133f467c1781e5d"
+    },
+    {
+      "path": "docs/GITHUB.md",
+      "sha256": "6b06b45aa28a5da0017108354c317f7a57efb0ae78b7ce979873ed8e97cf4933"
+    },
+    {
+      "path": "docs/INTEGRATIONS.md",
+      "sha256": "6a4a90f7c7d4933b0be340131d901ba001c3a371fd527e12cf02d9e963ccf482"
+    },
+    {
+      "path": "docs/ISOLATION-PILOT.md",
+      "sha256": "c94af05179a6c95ff4b3dfc94394bbd6b4ee3c7b4a565b27a23ea6a403a6f789"
+    },
+    {
+      "path": "docs/LAUNCHERS.md",
+      "sha256": "6773ebfd3e410e0307021105ba668bfbcf3bf3d135ea46932e06e80cf87c22c9"
+    },
+    {
+      "path": "docs/MEMORY-CORE.md",
+      "sha256": "487bdd9a53c7f1ce4875684d6bf99b1205a56c71bcb6f639a64bfd342a1b4335"
+    },
+    {
+      "path": "docs/ORCHESTRATION.md",
+      "sha256": "759a024e618e190fa90d08ad99348ac3f2df043ccbb45b14062a3665227f938b"
+    },
+    {
+      "path": "docs/RECIPIENT-PILOT.md",
+      "sha256": "4892e7296df987a4803d30313b26d3ace6ce4ae9f42073bd33e3eb7485c9a44a"
+    },
+    {
+      "path": "docs/RESEARCH.md",
+      "sha256": "023d44005427ac9ca60f94b4976f9dbaf929a112860a4586540b45ffcce74dd7"
+    },
+    {
+      "path": "docs/RUNNER.md",
+      "sha256": "4a19e51e834ac41e41a1cfe32f9b7a79c3fe1eeef0897786ce50561790baafc1"
+    },
+    {
+      "path": "docs/SECURITY-BOUNDARIES.md",
+      "sha256": "1fc48f527bb3fe28ac1ec3bed1f8b67dc1712f1e45eca715cf348e61cb495217"
+    },
+    {
+      "path": "docs/SESSION-CORE.md",
+      "sha256": "18e8cdda1f090b74ec0becbae22ca04ff121f621f6029ee1679e4eb56ad1a363"
+    },
+    {
+      "path": "docs/TOOLS.md",
+      "sha256": "13975b1208b07fea61db74ac7c08c5bc56756e97f063d29bba8b2f3bd93e0a10"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "2b089d34b3e761be22b49738e233a71813fae43e9ccc839cbf3fc8d1f2d6d19a"
+    },
+    {
+      "path": "docs/WALKTHROUGH.md",
+      "sha256": "d90358e51e87dbe316b7b5aba48b45051a607670edc4854e723c4ef133cabbbf"
+    },
+    {
+      "path": "docs/reference/working-with-projects.md",
+      "sha256": "8ef9cb21a91a4fb959c5f91731110ab95dff89417f445d9589474020dae8744c"
+    },
+    {
+      "path": "docs/session-history/INDEX.md",
+      "sha256": "1c1d01f113b89ac61b5f21f412ac229fca5b47fbc4f1e87cfe6e0a497da85a91"
+    },
+    {
+      "path": "evaluations/README.md",
+      "sha256": "042f3c523fecb7969bf7835cea8d55e17eae53230b0d66e12fa2642ffedc6fab"
+    },
+    {
+      "path": "examples/browser-check/README.md",
+      "sha256": "4971a400aa244bbdc366ba0e5b787e7b65f93de827ca949a85b94b71db287ead"
+    },
+    {
+      "path": "examples/browser-check/package.json",
+      "sha256": "4a67863bf61ccd8a7ac98107e542532d495a2a50bbff225d049b656cc6822143"
+    },
+    {
+      "path": "examples/browser-check/smoke.spec.mjs",
+      "sha256": "e01307579195fe24dd39fd3a0369665bb5667c0d572aaf4f1d8823219c4611e0"
+    },
+    {
+      "path": "examples/orchestration-project/AGENTS.md",
+      "sha256": "f6e6a23d07e0f0723776f4b0c0e9b461b850c4f5bb46410e7752411de4d9c9f5"
+    },
+    {
+      "path": "examples/orchestration-project/CLAUDE.md",
+      "sha256": "f6e6a23d07e0f0723776f4b0c0e9b461b850c4f5bb46410e7752411de4d9c9f5"
+    },
+    {
+      "path": "examples/orchestration-project/PROJECT-RULES.md",
+      "sha256": "cf01c5710844634c6c590024a8151c6deb159664f7a03ebb56e89358af6437c8"
+    },
+    {
+      "path": "examples/orchestration-project/PROJECT.md",
+      "sha256": "25c743242add2311157d0d446f80edcf4010994244df787ee8c4ee6e7b2d4db4"
+    },
+    {
+      "path": "examples/orchestration-project/SESSION-STATE.md",
+      "sha256": "42fb663797e8e9f608818e12a57e334eec3d6528d0f8ea90a2bdfa75edd1345c"
+    },
+    {
+      "path": "examples/orchestration-project/checks.json",
+      "sha256": "0c2e4bc210b288e910c446a1ea920b64d5444179efdc158d4a31b2277b3c2375"
+    },
+    {
+      "path": "examples/orchestration-project/label.py",
+      "sha256": "a78059ca3f0a44585dea71273ab188344fc1b82fd8db4ce060c086fe6ea327a8"
+    },
+    {
+      "path": "examples/orchestration-project/test_demo.py",
+      "sha256": "1129f6212afaf06afec827f8b823e6d33fc2e20bfc5ff97bb2d706efd6b71a48"
+    },
+    {
+      "path": "examples/orchestration-project/total.py",
+      "sha256": "81d91440c8db8a828923a6680d7cbf9621b8f2c80e65c0207f58e2b9585098c9"
+    },
+    {
+      "path": "examples/research/outliers.csv",
+      "sha256": "18ed3d065fd7bead9cb0dde9610b7983ee0b7cc647d29f88c6879da2be47f808"
+    },
+    {
+      "path": "examples/welcome-project/AGENTS.md",
+      "sha256": "e396b8ec7f232b909ac8930fa8d86a46a72ac1d887fe573b5856eb29ea5ed418"
+    },
+    {
+      "path": "examples/welcome-project/CLAUDE.md",
+      "sha256": "e396b8ec7f232b909ac8930fa8d86a46a72ac1d887fe573b5856eb29ea5ed418"
+    },
+    {
+      "path": "examples/welcome-project/PROJECT-RULES.md",
+      "sha256": "5af8f9368e2575419b76031971935ec7aa2289274f11bdd35c4df75f7b5a70ed"
+    },
+    {
+      "path": "examples/welcome-project/PROJECT.md",
+      "sha256": "ae2911b7e8b9166f04a4c2b643cbde2df0d6a1e07c45758c3c86a52c80807710"
+    },
+    {
+      "path": "examples/welcome-project/SESSION-STATE.md",
+      "sha256": "2b246b10fbfafb1b2cf2b9d50d09a3336e2dd8f333ea0f610e322aa1df1de9af"
+    },
+    {
+      "path": "examples/welcome-project/checks.json",
+      "sha256": "bf95217badb10539845187cf362cfcb971a97e1056ac8f9087edc7b69fa73046"
+    },
+    {
+      "path": "examples/welcome-project/next-state.md",
+      "sha256": "ba9e54e6cf137a023e15bd9b97084190389f0ea812b0bb3ce80bbc7c2f2873d8"
+    },
+    {
+      "path": "examples/welcome-project/run.json",
+      "sha256": "5bed0ae1546180da48c44d266932de4beaa64e6977e3a9459b169bfa2af9b347"
+    },
+    {
+      "path": "examples/welcome-project/summary.py",
+      "sha256": "9b0eb5349797200e4401a2e38a3812f480b5a9061d7caa173d97bdae1e4faa3f"
+    },
+    {
+      "path": "examples/welcome-project/tasks.json",
+      "sha256": "3060fcdbc3b695d8c8fbd84129f4c7d0a7f9e0f9278b0ee3427d1471cdb3fc47"
+    },
+    {
+      "path": "examples/welcome-project/test_summary.py",
+      "sha256": "f4bb9b25cc842d2ac3ae92be31986c803fb696b19ad8e22c458d0cada076e615"
+    },
+    {
+      "path": "integrations/README.md",
+      "sha256": "5de6785277ec1a6878f6ae9a7d1a00e1eae82f26992e0e3c85beef07a872d5ef"
+    },
+    {
+      "path": "integrations/bundles.lock.json",
+      "sha256": "d3d84b2d772a04676bc69bff0f3e72dfd3a45c564fc007e6b50879fda226e538"
+    },
+    {
+      "path": "integrations/catalog.json",
+      "sha256": "cd313304355c92f389a2d58e2541d83af5b1e4178a5a26005dc1d254008ad007"
+    },
+    {
+      "path": "integrations/guides/agent-cleanup.md",
+      "sha256": "0507509520fff729c37232c3897d43f0db86e0a1888d3d48d2bdec05a1b6053a"
+    },
+    {
+      "path": "integrations/guides/agent-reach.md",
+      "sha256": "9e20d1e3ef630c63ed4c23e49b31fba8cd7a2b53f88924f5ce856f2167bfd019"
+    },
+    {
+      "path": "integrations/guides/agentshield.md",
+      "sha256": "ff7dad31097ec680186a38129fdf14d0fa1a20d3d1216851146eff5ba40a65ad"
+    },
+    {
+      "path": "integrations/guides/basic-memory.md",
+      "sha256": "31d953bb382234aca1cb14c4c89ab03711f19e9253a584f7fd596aed254b599d"
+    },
+    {
+      "path": "integrations/guides/claude-md-management.md",
+      "sha256": "c87cafbbaef7679346e008d0732b39eef4e61aa3dd7f74c5d1122abe46f28218"
+    },
+    {
+      "path": "integrations/guides/claude-mem.md",
+      "sha256": "cf01ba95158c47a98b55670f7e2922a55d87da17874bea670e0584d7f82cec3a"
+    },
+    {
+      "path": "integrations/guides/code-simplifier.md",
+      "sha256": "5c58b74dd558b923430458c07fa5a9e6fa182ce9bb079a5043f004c5b6a9fb8f"
+    },
+    {
+      "path": "integrations/guides/desloppify.md",
+      "sha256": "e8853a5beadd0154ca349010b794251a6d5998e6598011c1a9858e035ac0ac3a"
+    },
+    {
+      "path": "integrations/guides/doppler.md",
+      "sha256": "a830ce99d34533f11ca7841b03c0f470c9f42a9ec613bdc077f1643956a436dd"
+    },
+    {
+      "path": "integrations/guides/ecc.md",
+      "sha256": "d8e72c2fe96d3f0813e81704576bb3985bd4f2fe4bc5f28c58497d34ef645c88"
+    },
+    {
+      "path": "integrations/guides/skill-creator.md",
+      "sha256": "a91aab2e957f9d01d01a90168f6099e2b5e9a9845e6e8d5ab450ab22fbae8d67"
+    },
+    {
+      "path": "integrations/guides/skill-eval-harness.md",
+      "sha256": "f4a107bdfc3f56301ef7893c9e40c9fcfe3c317ea0f92fb1488c1ddecd94b623"
+    },
+    {
+      "path": "integrations/guides/skilled.md",
+      "sha256": "a7fe2afadd2abf70d3d54bf3909285d48184f71d3de79a3ad027b8fa9e62c252"
+    },
+    {
+      "path": "integrations/guides/skills-cli.md",
+      "sha256": "c1f9ca1e2dee8ff1540bd4ca5795d8a9641aba00cf289d36092a67b7db72776f"
+    },
+    {
+      "path": "integrations/guides/skillspector.md",
+      "sha256": "0bd4d3bc17ae9aad0e046d4f2e256ad135317acbd7a1c385e680f084a7f72143"
+    },
+    {
+      "path": "integrations/guides/superpowers.md",
+      "sha256": "edf9dbc17e51683da1dcd371fde66124d8860eec209feb49c64ef9dfd756050d"
+    },
+    {
+      "path": "integrations/vendor/agent-cleanup/LICENSE",
+      "sha256": "0770d0f7a5455c3392c0768b5a0bb2f22408d1ac75fde851f0bb33daf0a5e6e5"
+    },
+    {
+      "path": "integrations/vendor/agent-cleanup/skills/cleanup/SKILL.md",
+      "sha256": "0cd71c94901e7859ff7fd2e1e5c93d2402715a59a904d7a201d80496b0e590d6"
+    },
+    {
+      "path": "integrations/vendor/agent-cleanup/skills/cleanup/scripts/agent_cleanup.py",
+      "sha256": "acede7823d068af18b514539ab7201c89fb385b8c54cc52cc262801f2e6f23e8"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/.claude-plugin/plugin.json",
+      "sha256": "4617ec581bdf3f6d0e9879e8d9338a1fd46602b93bb6007d3ec5c1a18f8af66f"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/README.md",
+      "sha256": "8abcb9ae663f21f0bd2cc2a07027d44cbccee9273f9701e6db8008a7ba8ce472"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/claude-md-improver-example.png",
+      "sha256": "a0b12357a8d8f9b1ba16692805344b8c4d03af2cc2eefcb70c68431b4350d1ad"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/commands/revise-claude-md.md",
+      "sha256": "d59ffd7ef2b793bdfda0efbeed6bb948cb9a455d1fe6cccb54fe4585788c68e9"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/revise-claude-md-example.png",
+      "sha256": "3c424544efe3f581b0fd61312586553bb18be091988a064910a269fac2d91b55"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/skills/claude-md-improver/SKILL.md",
+      "sha256": "b06c7420be08ca1c7f6d75f7f4709fdb787624a2d363e2f8052216d8c780f85b"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/skills/claude-md-improver/references/quality-criteria.md",
+      "sha256": "383def16b05dca948297dd1acb33f007cb1b1b2c368454d424c5634348a8bab1"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/skills/claude-md-improver/references/templates.md",
+      "sha256": "de0aa3ac30120a0c77f9cd82738a75ed8326864f98feb89356a253f2deaf3ab0"
+    },
+    {
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/skills/claude-md-improver/references/update-guidelines.md",
+      "sha256": "02a158d6ca41a0ab702a67a213e92205f09c073cea53796633251bc62fd7ec55"
+    },
+    {
+      "path": "integrations/vendor/code-simplifier/plugins/code-simplifier/.claude-plugin/plugin.json",
+      "sha256": "f18fb26b2f03e95ad165a4333c73ecd292da18e74d2b89d89bd9848839f8d0e7"
+    },
+    {
+      "path": "integrations/vendor/code-simplifier/plugins/code-simplifier/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "integrations/vendor/code-simplifier/plugins/code-simplifier/agents/code-simplifier.md",
+      "sha256": "2a51e8d210580d9f66ac2ed1226c41f9374565fc275da30d7bb95f65c2cc87bb"
+    },
+    {
+      "path": "integrations/vendor/ecc/LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/SKILL.md",
+      "sha256": "b4d5f321543ba70952a9044863e2163bd6d905bbe4226cced3b3698a473faa39"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/agents/observer-loop.sh",
+      "sha256": "a6d119252c8ff2eda7aa7b345c2254fd6bdaf14056f6b5bf54835a2738ff310d"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/agents/observer.md",
+      "sha256": "320d50ff2965efeabd6f07c2be134e11da160293e958c1bc27c309d613839ad2"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/agents/session-guardian.sh",
+      "sha256": "ee6e4c0990f8d538cae1c85aa194e01e9ca2336e5d993ef68eb608b96cb0d82c"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/agents/start-observer.sh",
+      "sha256": "6f5beed1e96f685c09ffa7f614f9673ba68f1466a60830252b8b9138efe05e84"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/config.json",
+      "sha256": "6f17e7a99aafe252ecd0b9212fb5f606be50b8ce1685f5a6435e46e87ffeb970"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/hooks/observe.sh",
+      "sha256": "80d7fc51e2ba6069a9c244d2662d905e4c297f5b5855bd252cb68a71bf42e6e6"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/detect-project.sh",
+      "sha256": "43215ad15ce0c6585c13b1c45cbba6bf8df0dc459b663ddca77c0b86c459c283"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/instinct-cli.py",
+      "sha256": "0b69c59fad38ccace3babee930b29cdf6d71bb3ac080eb001473737412f40193"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/lib/homunculus-dir.sh",
+      "sha256": "99dfa99ae0f7c6e2e15ed5b5bf3c46e91a5f089f4060ba93d5da5e85e04fd308"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/migrate-homunculus.sh",
+      "sha256": "34f121c143a676d330f06209618aae8cb08f8155298cb5fa70c893314bf9b303"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/test_parse_instinct.py",
+      "sha256": "ef532da862e1482b62cabfafd9079036bd291a58327ac164d2cf67063711a51d"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/eval-harness/SKILL.md",
+      "sha256": "3a5339a5a80099a5c9d55da9b6c8e05a690f5befc6f78d779c75dd79d818ca07"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/skill-stocktake/SKILL.md",
+      "sha256": "3de326f8f87216b024bf524433b91607068d805286394d5ed8e293b4799b7314"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/skill-stocktake/scripts/quick-diff.sh",
+      "sha256": "3a4afc27fc7f859ec7d477c1968102c897a9a2bb047d96129bcb8604e50935f7"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/skill-stocktake/scripts/save-results.sh",
+      "sha256": "e21d6804898f31fa92d31120d609a00d4f729ded8c740537889b2a5db44354c4"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/skill-stocktake/scripts/scan.sh",
+      "sha256": "c29042b996efd25ca2368f6b9bac5c3b69b02b8d877a84a4bff9c656413f5699"
+    },
+    {
+      "path": "integrations/vendor/ecc/skills/strategic-compact/SKILL.md",
+      "sha256": "1c3be090bffc100e31d185196cff0eb7075a877523cf41c19d781baca65b219f"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/LICENSE.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/SKILL.md",
+      "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/agents/analyzer.md",
+      "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/agents/comparator.md",
+      "sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/agents/grader.md",
+      "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/assets/eval_review.html",
+      "sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/eval-viewer/generate_review.py",
+      "sha256": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/eval-viewer/viewer.html",
+      "sha256": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/references/schemas.md",
+      "sha256": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/aggregate_benchmark.py",
+      "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/generate_report.py",
+      "sha256": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/improve_description.py",
+      "sha256": "87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/package_skill.py",
+      "sha256": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/quick_validate.py",
+      "sha256": "67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/run_eval.py",
+      "sha256": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/run_loop.py",
+      "sha256": "7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21"
+    },
+    {
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/utils.py",
+      "sha256": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1"
+    },
+    {
+      "path": "integrations/vendor/skilled/LICENSE",
+      "sha256": "c417f515c774c00d0c6c8e6f84d3993c3e87c78e316fac6d03ea5606e20b683d"
+    },
+    {
+      "path": "integrations/vendor/skilled/NOTICE",
+      "sha256": "dc4ac8a1a2c3e4c8921a05d79852ae748f717fd28e2c9998cdb4fcfa027c3ae1"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/README.md",
+      "sha256": "de0d106ff6bac5137fe3467f3af51461c2612668c3d62f92c0577513fc59ce95"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/SKILL.md",
+      "sha256": "af6c27f499c19088ee171d213b17378af795610aa2d684ea6f452a179fb78c93"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/assets/case.yaml.tmpl",
+      "sha256": "5f7d3d0945f5bd986fc7f77b1721ea9be324ebe5fc9187cdb7c8dd1d78e641f0"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/assets/eval.yaml.tmpl",
+      "sha256": "fabf00c6b8c1f4ed612fd6c0996d3db44cf386cab6fcc3b181fe7268948f8aec"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/README.md",
+      "sha256": "29fce3562ee594166feb7b13d70eb5b3043df5c72cdd581f0ad3a0539419ea74"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/add-case-to-existing.yaml",
+      "sha256": "c8f2c54090022eb7f04f70718fe445fea4f6ac1af1e8a3f6c6b74867fbb72ca3"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/credential-presence-only.yaml",
+      "sha256": "8cd54c855db81cdbbd3a91ed5c7f3331f0e4f460b9abd36abf62118b836b4d94"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/english-context-generates-english-only-cases.yaml",
+      "sha256": "cb8903ff938c3411f691e83348c155af8c1b895dd22869114960504ebffaee70"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/evolve-existing-skill.yaml",
+      "sha256": "a87a26089d05a3da9be2d35b997883f9cc168b19d29fcec664c2114d37c46b11"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/external-trace-review.yaml",
+      "sha256": "0b9c47b8a2983b6d27b5a4f8ab994a547c9017e7114c297751880eb0ef1d28dd"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/plan-without-mutation.yaml",
+      "sha256": "6ef25957d8bd219efa291dbc6a9abaac980b8afaa90ffe0865d0b34034d3ae7d"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/preserve-localized-regressions.yaml",
+      "sha256": "302c137f45842b48d3b10a0dc0d06360af3317ce5a5e800231293ca97aa1ec6e"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/scaffold-new-evals.yaml",
+      "sha256": "4702d988cc9d7f509466b4df702cf8cb3d2c0407b22e44b08cb4d9562acc959d"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/scaffold-with-qodercli-engine.yaml",
+      "sha256": "e7eb56cbf382acb02b6fbbfa3fb74215bacd497a2c9bd9ba97728dd1764cfd38"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/scaffold-with-script-judge.yaml",
+      "sha256": "ba074a5468dfc2f312f652f596aa07fb5a515ecb94f9f5ad9aa4e22a8044a7ce"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/scaffold-with-user-simulator.yaml",
+      "sha256": "193f668e158e32582ac58fc3fe8fb622841674326231d5dca6eb7419c52af209"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/eval-dashscope.yaml",
+      "sha256": "ba650c808b707d8a12814f45e524524317751cb4ad1678e3723747c625d1d7af"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/eval.yaml",
+      "sha256": "e93fbff0f6682ca525a58ba93c587a2667e1cef923a6268858b5525681e5d395"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/scripts/assert-credential-presence.sh",
+      "sha256": "c7b872868a1645d9bf80d17a91693f268c2ad526e87123a865549e21683da300"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/scripts/assert-english-only-generated-cases.sh",
+      "sha256": "158dc65875bbb20bc241f2ef5bbedc4bbdf846f258916343fc66b0b9d9bc94a8"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/scripts/assert-localized-regressions.sh",
+      "sha256": "ed58f33f5695f784980c33bc6758ffadec24291fe463f35e08eb1d557ab80e14"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/scripts/assert-read-only-plan.sh",
+      "sha256": "ca7ca9e76daeebd5aba8ec3ea99a5dfb55e887f02d009fa4c3576b5b9759e807"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/skills/sample-no-evals/SKILL.md",
+      "sha256": "d33f46a33b55ee9d4074c6b19dc993118a0d1318e3ce77eb78ca84dfcd798a79"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/skills/sample-with-evals/SKILL.md",
+      "sha256": "73c5089b7c08bcc3b78573d7a6027ccb62338b4f017764f86e512f75ab3b8582"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/skills/sample-with-evals/evals/cases/add-todo.yaml",
+      "sha256": "ee578c3236bed375ec5cab9943253eb5f21b8e1765ae754eba6105989e6779bf"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/skills/sample-with-evals/evals/eval.yaml",
+      "sha256": "06ed5baceeef7c3f05dae3fa442b4f091e5959e9c752cea1651880e20d7cfa41"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/requirements.txt",
+      "sha256": "b4603b9468ade4d639d2c6f73b89d50e1fa5d227c73ab15be0382cca478513e6"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/test_regression_scripts.py",
+      "sha256": "6ca4d46d8330b8fc7750a8fcbf02b6b67ba6ed4e5b0e0cad607f69f2cf09e732"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/case-yaml.md",
+      "sha256": "38c532f756f28d8855df60ff601102fdf1ba6b4568d66a1ef10ed8db714fd485"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/cli.md",
+      "sha256": "fb719d473e77f1e90a50199e633130a033cf3bff6fe4f643d7e7c6de8f3de6a5"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/eval-yaml.md",
+      "sha256": "a9233a4bb1e60b2c2e8819604b2fc6df1092d683d7dc4ff85f3f7f3a55809e4b"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/install.md",
+      "sha256": "5e03e38c42ca768c332231c56b7357d1a48e6566eeec30728bd74c300298f735"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/judge-types.md",
+      "sha256": "23d55d6faa0a85d13b47df8abf2f94be26bdbc520b7678b42af27244a4e202a9"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/migrate-anthropic.md",
+      "sha256": "f7b6b08bfb1a7bfa273cd3974aad483561efe52ce544e186f26bc7f11795a248"
+    },
+    {
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/observations.md",
+      "sha256": "3cfd95e97eac29891c5caa3bb62a08f2b60433e393215eafe3f07bb7d1784856"
+    },
+    {
+      "path": "integrations/vendor/superpowers/LICENSE",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/brainstorming/SKILL.md",
+      "sha256": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/brainstorming/builder-check-prompt.md",
+      "sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/frame-template.html",
+      "sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/helper.js",
+      "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/server.cjs",
+      "sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/start-server.sh",
+      "sha256": "314dd68dc00e8dd94c7491aca8a5f004c7fddffc161e2b07482f29f48d13659a"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/stop-server.sh",
+      "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/brainstorming/visual-companion.md",
+      "sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/SKILL.md",
+      "sha256": "3143de8695c5a2d63e8b1675f33837578076f464deb127c2ebdd0b46fceef886"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/analyst-common.md",
+      "sha256": "88801c36070be2a54a8a9a29632b01ab21db053e2e76ee49b5252a9b74ca4090"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/cost-and-time.md",
+      "sha256": "fe97a66d4db3b436816ef82694bda413b522b3a862dd41978da01e358fffecc4"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/plan-adherence.md",
+      "sha256": "1dcbab82033598a2e9c9ee42e950d4b1822d2c871c02cef9e102cdd5cbbda113"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/quality-evidence.md",
+      "sha256": "749d11cf678f379ed77a29274cad456634e0284aa523639a1a214a9f2b986eb1"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/repeated-work.md",
+      "sha256": "895027f2dfa4b1b8bcdb7ac9aec8d45a80bff212fad6ec6cad5ab38fa68322f5"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/request-conflicts.md",
+      "sha256": "e800e38d8b7752c212c76c5c3ed75cd78b749684263ea0c313586f26af6f4b5c"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/scrub-audit.md",
+      "sha256": "5cc48f05a7f81f5f7e05e0c7ceafc0fb8774bcaf75fe88dcb5c7e408026c70ad"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/scrub.md",
+      "sha256": "854cb3320cc5377b493cea2f72519d67983464882db68a0f408a7d0a0f040b8c"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/similar-session.md",
+      "sha256": "b190f713b463df2bb5ec3914647e204074d1bd50643a53159db6d13cace916c1"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/skill-timeline.md",
+      "sha256": "45d604d583b57a77b9033eced8eb875ef342af70fcd66cf7d15c6dc89964890f"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/stumbles.md",
+      "sha256": "1f2d1f048aff7b8b400006301f1ce8c232ecc7e9d5f705af27a849b2c03ea2e7"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/references/context-safety.md",
+      "sha256": "e6be2bd3495f454d4bedee9484d728d245d1fa656e11fc4ceec5693c16e4730a"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/references/github-issues.md",
+      "sha256": "d26ef9197b4a6ae5159ae6d11abd162bcc624d95fc7ccf508e07b68f916a1b19"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/references/redaction-policy.md",
+      "sha256": "96b16f47074838fe2d7e609577d6f8b0ad460f8378b281a3f96ee23cb5a08bde"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/references/session-discovery.md",
+      "sha256": "6d1dced083e5d978448a78df298cf515531b0eb39b2854a4a2afbffeb69a7435"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/templates/bundle-README.md",
+      "sha256": "2e6ddc6b106028d5ebd00a50ad93a77111d675c219ee1273cd0857869e8d51ec"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/templates/case.md",
+      "sha256": "597892462be83bc478536ec91f7c285f6dd25d119c560734a3a180fe8471301d"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/templates/issue.md",
+      "sha256": "afd21779e5de5bc5adfe2f5a50a04e44ab8d50d9ad0f829243de248d6f023eed"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/templates/report.md",
+      "sha256": "38295d0fd785e8608f330815c59ebd7047942002ec7085aecbed54681f56b0c1"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/dispatching-parallel-agents/SKILL.md",
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/executing-plans/SKILL.md",
+      "sha256": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/executing-plans/scripts/task-done",
+      "sha256": "ac0b5ebafc7d471507b7e94d88da77a11f187ba277c8d48fefaf8ff3e4fee50e"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/executing-plans/scripts/task-start",
+      "sha256": "4ae7ce3b6777c3240af786197836a6b4bbf3b0ee831c25f147c149ea8db54a21"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/finishing-a-development-branch/SKILL.md",
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/receiving-code-review/SKILL.md",
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/requesting-code-review/SKILL.md",
+      "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/requesting-code-review/code-reviewer.md",
+      "sha256": "82e370be6b3447523816286195571e4216ba56ba1ad6ad0e87862294c4c78dcb"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/SKILL.md",
+      "sha256": "1baf70e307bde682c462513c86116333f1f066168c6710f45145bf5f0b00828d"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/implementer-prompt.md",
+      "sha256": "81dd9d5a3fb0b09b96b5829f03b9796842f3199ef7591d1ba1c2db2a515f64d0"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/re-review-prompt.md",
+      "sha256": "ad54d0a10f1c2c8e656456e0a46e654af5dfe5ee6bcef63428cfd69b8dcd9311"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/batching.md",
+      "sha256": "b54dc7e23dbfb90db89bcb2fb3af591aabf6a271a165fbc0da4c6f9439980eac"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/cannot-verify.md",
+      "sha256": "e698713a15e0eabf1a2ab26ffe1bb04bf70c9d6d2e2060d44a0f9a1bdd4408bf"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/final-review.md",
+      "sha256": "6c9e12093e46c4ad0a203bc07709c17e3470f855f1b78e55c5e7b722a012a32c"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/fix-loop.md",
+      "sha256": "1938ce707915efc44021e563ebc29666329e20ad861b6c50b89f305b8f4e8d8b"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/handling-reports.md",
+      "sha256": "8f759cdd4936220c38aab05b6d6c48c6df8ac8f146b0f37a6d2facbf87133c67"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/preflight.md",
+      "sha256": "3ea21c5fc1af1a190ac8a9d19ceb0849b47bf2ffe27b87dffcc21b6a0539776c"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/resuming.md",
+      "sha256": "ff6e38bde2276faa2a7e93513086caded0ea10edbf2ec7f349a7e3b0d7c668c4"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/scripts/review-package",
+      "sha256": "aed7c6e09fc660417d28898ed975e84651cb9f18f4675141cd475edfb7037f3d"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/scripts/sdd-repo",
+      "sha256": "6f8256a776968d394bae679572e41ce572fd45c72074b98f9a8eb8b4f160e06f"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/scripts/sdd-workspace",
+      "sha256": "de3af5252fa595fc2000ba05cf69e06187d5c8aae9d283cced4c167ad1813061"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/scripts/task-brief",
+      "sha256": "0f244a12e146393c552ba62069d3eedcc85cb3f76de67b01f4e11219e5ebbcd8"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/task-reviewer-prompt.md",
+      "sha256": "61a04c2fb29907887d8babee1594f5e35ae26d461e7e584f5b7c283215165e08"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/SKILL.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/condition-based-waiting-example.ts",
+      "sha256": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/condition-based-waiting.md",
+      "sha256": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/defense-in-depth.md",
+      "sha256": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/find-polluter.sh",
+      "sha256": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/root-cause-tracing.md",
+      "sha256": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/test-driven-development/SKILL.md",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/test-driven-development/writing-good-tests.md",
+      "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-git-worktrees/SKILL.md",
+      "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/SKILL.md",
+      "sha256": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/antigravity-tools.md",
+      "sha256": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/claude-code-tools.md",
+      "sha256": "21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/codex-tools.md",
+      "sha256": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/gemini-tools.md",
+      "sha256": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/hermes-tools.md",
+      "sha256": "e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/muse-tools.md",
+      "sha256": "5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/pi-tools.md",
+      "sha256": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-plans/SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/SKILL.md",
+      "sha256": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/CLAUDE_MD_TESTING.md",
+      "sha256": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/anthropic-best-practices.md",
+      "sha256": "217629b356c09c9bd11017c9788e8fc654ca1b32c92d4a51cd490e16dd65e59a"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/bulletproofing.md",
+      "sha256": "9397023e6bc85b556a57f3097371363bf03e28e755c57f403f470bcda90e0a23"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/discovery.md",
+      "sha256": "c6bbc74af3be90f693f7cbc986af6fa94e8df75f65109b52e96032587f5b92af"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/flowcharts.md",
+      "sha256": "8b1f542391f274f0d33f3457ac099a3d317d6877eaa3b8d3b1ebef151b55fda7"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/graphviz-conventions.dot",
+      "sha256": "e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/persuasion-principles.md",
+      "sha256": "a51bc9bf75189ea73a27b3fb504a2fdfdb966fb1f7f1cdf03203230a216ccc03"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/testing-skills-with-subagents.md",
+      "sha256": "ed8a6862c085900135962390530d9dc7637ad6d650b4324ce3b051287a5c3f22"
+    },
+    {
+      "path": "integrations/vendor/superpowers/skills/writing-skills/render-graphs.js",
+      "sha256": "c7f412cc629461c4d10287e668731874c0497707023e3e3f74a5355eb2cee196"
+    },
+    {
+      "path": "roles/builder.md",
+      "sha256": "c1b63166794eb8cb6491f916de07b35a765c55550218cf90a007af937c61a0c6"
+    },
+    {
+      "path": "roles/copywriter.md",
+      "sha256": "5c28e7d2d05371182d10a88d2e710d8ecb4e03a549c435fbb9186bc4bec3c0b4"
+    },
+    {
+      "path": "roles/debugger.md",
+      "sha256": "e8e0d34a31ee64920615517bbdf43f23d9801c5abf280bfccfbbdd3849e1f308"
+    },
+    {
+      "path": "roles/email-writer.md",
+      "sha256": "c7f7214254de300f46d3a71fc3365e70018ec1c26521aa1922918683e707216f"
+    },
+    {
+      "path": "roles/funnel-strategist.md",
+      "sha256": "c2f27a4f4b85e24f674a4361999296a305ea8688d7ec4b7a7d8a9c5eec5cd53b"
+    },
+    {
+      "path": "roles/planner.md",
+      "sha256": "f94e5ad3da42fd3bb1a5f2cba21a8bfe5e9dbec6437eeb193566844b80003b06"
+    },
+    {
+      "path": "roles/researcher.md",
+      "sha256": "206c34571d94cb3e724fcd5628e1f15ffb3bf3234eae437001c0708fede086ff"
+    },
+    {
+      "path": "roles/reviewer.md",
+      "sha256": "dd808e39e36cf3fab57cbeefad9621a2ac9bb5e1b2b98d6bd1a8f6f8cae46af6"
+    },
+    {
+      "path": "roles/web-designer.md",
+      "sha256": "5fec8917ec8988f113baaec45d0b644aa71428dd6f581e9199d3d630958838d6"
+    },
+    {
+      "path": "routing.json",
+      "sha256": "54154d2364721a3b5758fcd0e4bd8fe7390078081b13fc5b70713a340cae16d0"
+    },
+    {
+      "path": "templates/evaluation-plan.json",
+      "sha256": "59ea310beb1a8821dfbd69f20353f5c39e67ff0c175b34057c551b94fcb5f45b"
+    },
+    {
+      "path": "templates/memory-note.md",
+      "sha256": "4038f054b0becb0c5ad13672148601ddaad6570c125b74ccf175ae1b1bf24fc8"
+    },
+    {
+      "path": "templates/project/AGENTS.md",
+      "sha256": "e23e6563fa5db2a155897a726b94f10db509f87a215758db21138bbd55e4eda7"
+    },
+    {
+      "path": "templates/project/CLAUDE.md",
+      "sha256": "e23e6563fa5db2a155897a726b94f10db509f87a215758db21138bbd55e4eda7"
+    },
+    {
+      "path": "templates/project/Memory/INDEX.md",
+      "sha256": "c649fa10a225c35df337a824745103a090c409c492c19b17be65ab4404329877"
+    },
+    {
+      "path": "templates/project/PROJECT-RULES.md",
+      "sha256": "5af8f9368e2575419b76031971935ec7aa2289274f11bdd35c4df75f7b5a70ed"
+    },
+    {
+      "path": "templates/project/PROJECT.md",
+      "sha256": "8e8091c075415b6062b163be2d3eedc2862c9f421d5e3e560ea0ab6e949c9992"
+    },
+    {
+      "path": "templates/project/SESSION-STATE.md",
+      "sha256": "edf7e230dedde409b445323ee5cc7c4438bd5ecf4353d44ef693185eccf98b8a"
+    },
+    {
+      "path": "tests/test_acceptance.py",
+      "sha256": "961f0d0ca2c573b549684e7ecb811210d44c97733b3e273ebb6e01e13cbfacc6"
+    },
+    {
+      "path": "tests/test_agent_search.py",
+      "sha256": "bbea8d77e1f9def5b2d42ddeded38683163459a4c88477500f8f553643dd98ac"
+    },
+    {
+      "path": "tests/test_client_scope.py",
+      "sha256": "df947d464b96f82bb3566a0f8504535c9c31f780c2f6da580776ce008c0d2541"
+    },
+    {
+      "path": "tests/test_foundation.py",
+      "sha256": "0c5b48d127482ca761663b706744e5b2622971cd7446a35ed122ec39b7b0d9f4"
+    },
+    {
+      "path": "tests/test_integrations.py",
+      "sha256": "08237d4fdd6a3072dca35f93a7c3b074bfcc0dfd5f53cd80eb040aad77bb4a4a"
+    },
+    {
+      "path": "tests/test_isolation_pilot.py",
+      "sha256": "00f2040214d60bded65eb79d155a3c479a7bf280a4d069d46cfadee5eab54e81"
+    },
+    {
+      "path": "tests/test_launch.py",
+      "sha256": "cb6ddc3de991c5ea293d52628e1e5ea03f81da18f96521b888a71f2041b91602"
+    },
+    {
+      "path": "tests/test_memory.py",
+      "sha256": "d2343cb28602d1dbb825897e085be89eb78bbd17c7fa71c56b28d8b685fa6028"
+    },
+    {
+      "path": "tests/test_orchestration.py",
+      "sha256": "bb2d99dd2757e6addde6fccb998f5d04bc85e38a1365377873d144a2a548b8c6"
+    },
+    {
+      "path": "tests/test_package_release.py",
+      "sha256": "8a85dcf66467d742a3f651039de6190a428fb6138e35517d10b54c6eee5ca4cc"
+    },
+    {
+      "path": "tests/test_preflight.py",
+      "sha256": "a8f4d3a7b638c45cb3d988d651878b1b4c2f20b848ac7fe64425a47c071e493e"
+    },
+    {
+      "path": "tests/test_run.py",
+      "sha256": "b6d88c58b3db8e4a4c20760bd3211a65981707b44099fb2cdb6674e2384a2c87"
+    },
+    {
+      "path": "tests/test_session.py",
+      "sha256": "0c85ea5ea4b7d2d2123434ac108c7eeeb7369c6eb6f4b3ea10f11871ba206f65"
+    },
+    {
+      "path": "tests/test_skill_review.py",
+      "sha256": "3d3454dc794671d484153b03cfdfad6b27567a3a7b8fb768670b4a37098cdfa1"
+    },
+    {
+      "path": "tests/test_verify.py",
+      "sha256": "4ea3d3ba16cd0d6e8f5b50715d9138b36d71f4ff2e7babfeba2044fceea33a29"
+    },
+    {
+      "path": "tests/test_worker_provider.py",
+      "sha256": "2731b0ea2be11993c1ab21e7c3c99c2b463af70ae4a6135a2dd4e25fd8b9b67f"
+    },
+    {
+      "path": "tests/test_workspace.py",
+      "sha256": "1a1450567523c98acdec138dde166da6cb4313ce68962f36860fb9c95c8769c7"
+    },
+    {
+      "path": "tools/agent_search.py",
+      "sha256": "ec79a2110b807d53f407f8002c149733692cc3db162054123663d69e84f86cd8"
+    },
+    {
+      "path": "tools/client_scope.py",
+      "sha256": "585f9ec6dd2ceb21401204c7b781ec89ac05f7b47fc3c0f865d354ed3ef6a167"
+    },
+    {
+      "path": "tools/evaluate.py",
+      "sha256": "f8961acf61fd3ad96a02195846584f271b93f92a9f7e4eec4e2b833cf96174ad"
+    },
+    {
+      "path": "tools/foundation.py",
+      "sha256": "96a44e9e07ffa10d2466ea2dc681be320812c3db032697470b606b4400d91232"
+    },
+    {
+      "path": "tools/health.py",
+      "sha256": "2e0a46b646bfd94a667d1d0a394f4ba0d43ae9047c72d9c660cf483d26ec2ca1"
+    },
+    {
+      "path": "tools/integrations.py",
+      "sha256": "2cff312b8dafc46a541f1a3bda8af35030d0b69d1887f0f5267adbc1428326c7"
+    },
+    {
+      "path": "tools/isolation_pilot.py",
+      "sha256": "e4ed151bb6ec24f3d54b7843c514318a03a18f9781ab3b7dd43f763dc74e56fa"
+    },
+    {
+      "path": "tools/launch.py",
+      "sha256": "978e5a083fe0fad4a9d34128f1550d2a1c7b92fbbd299b94b451deca00a66505"
+    },
+    {
+      "path": "tools/memory.py",
+      "sha256": "487a1b562a60cf69d13c51ce2dda158eb748c69b38e001ea868514808783b342"
+    },
+    {
+      "path": "tools/orchestrate.py",
+      "sha256": "92f128a32f0df83bfc8a5a905dbed196afcbe25db6297130c0298fee3330e52b"
+    },
+    {
+      "path": "tools/package_release.py",
+      "sha256": "c0607ead556f433dac96f4a6d1d8678c38feff0c565d58498142c63555c36f7f"
+    },
+    {
+      "path": "tools/preflight.py",
+      "sha256": "f05d3e269fb969f905fcd86840a9cef12fd379dc4a13c934c05fa65a6d776311"
+    },
+    {
+      "path": "tools/python_cli.py",
+      "sha256": "3ab203a103e3074df14dcf0d0fd3f6b459d497c5f9c71c0d669a0ce5d450fd7e"
+    },
+    {
+      "path": "tools/run.py",
+      "sha256": "b10df0a1b56c1a1d6dd17619fa17cdcb7df2ddceacd4f7050761dadb1e3589d7"
+    },
+    {
+      "path": "tools/session.py",
+      "sha256": "fd1d243e8eb56e5851a1f571c7a83b16fb5a24b6d73eb90699d32667b37bb32c"
+    },
+    {
+      "path": "tools/skill_review.py",
+      "sha256": "e69685e3592e2c21a2fe40fcd3b361cc515a93282c2774cb4c35d0da2ec2ebe3"
+    },
+    {
+      "path": "tools/verify.py",
+      "sha256": "0fe75f8ce2793ede192adf355abe7d0a050d544ce7d7bb23bc7827fa6cd3e77c"
+    },
+    {
+      "path": "tools/worker_provider.py",
+      "sha256": "4179c113bf1e2c420f876bbe992dd2cc265e2d816043ab7e42c3705f342ef085"
+    },
+    {
+      "path": "tools/workspace.py",
+      "sha256": "b5c3b3ddd89b5aa1e70ffccec7fddf664a3f6f555531051735491bd01dbe71b3"
+    },
+    {
+      "path": "workflows/browser-review.md",
+      "sha256": "3dfd3be038d4949959c9ef10df520cd539a5fcc2ca29cba1306e22b8f893815c"
+    },
+    {
+      "path": "workflows/build-and-review.md",
+      "sha256": "000ac3a1fec3793ec453b7d09c62fa14be91cbd8544427fb5c46c307829c8f97"
+    },
+    {
+      "path": "workflows/coordinated-build.md",
+      "sha256": "4183d2dc5fa34aa5b0733438e7817e93e0ff94b6efc336c069fe3fe56ef81ce4"
+    },
+    {
+      "path": "workflows/design-a-website.md",
+      "sha256": "974f6952f6b9d63ddc593f06f36a1ccb2d631171f5118e91089db22d3641f302"
+    },
+    {
+      "path": "workflows/diagnose-a-problem.md",
+      "sha256": "92b6dc2c851b39fb03b6cf3b87a701f9924f0dcb94176bb4c8e63a7685010504"
+    },
+    {
+      "path": "workflows/knowledge-retrieval.md",
+      "sha256": "8d812f5a0cae387f47041820731cac4aa32736fa0f09e5814c469f6fac611cf8"
+    },
+    {
+      "path": "workflows/learn-mode.md",
+      "sha256": "250917f92de480d099a6f25ada06bad09f3a0ba80829a09073cb26d8d01d67f2"
+    },
+    {
+      "path": "workflows/maintain-and-improve.md",
+      "sha256": "b9ab6ca4b903cb9c77f88218d4ec1f8c0fbcf2b983d186260ecff0fae711e545"
+    },
+    {
+      "path": "workflows/research-to-decision.md",
+      "sha256": "358e3c5f13cc297d1f3358aff0f33e1f116e01fd78a2fa7a5a7fcf9060c8221a"
+    },
+    {
+      "path": "workflows/social-outlier-research.md",
+      "sha256": "f5331ca14e6d7889a1506a42a3b10676ec8e220f905988f47784ad7593bb389c"
+    }
+  ]
+}

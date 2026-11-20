@@ -1,0 +1,1031 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "integration": "agent-cleanup",
+      "path": "integrations/vendor/agent-cleanup/LICENSE",
+      "sha256": "0770d0f7a5455c3392c0768b5a0bb2f22408d1ac75fde851f0bb33daf0a5e6e5",
+      "upstream_path": "LICENSE"
+    },
+    {
+      "integration": "agent-cleanup",
+      "path": "integrations/vendor/agent-cleanup/skills/cleanup/SKILL.md",
+      "sha256": "0cd71c94901e7859ff7fd2e1e5c93d2402715a59a904d7a201d80496b0e590d6",
+      "upstream_path": "skills/cleanup/SKILL.md"
+    },
+    {
+      "integration": "agent-cleanup",
+      "path": "integrations/vendor/agent-cleanup/skills/cleanup/scripts/agent_cleanup.py",
+      "sha256": "acede7823d068af18b514539ab7201c89fb385b8c54cc52cc262801f2e6f23e8",
+      "upstream_path": "skills/cleanup/scripts/agent_cleanup.py"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/.claude-plugin/plugin.json",
+      "sha256": "4617ec581bdf3f6d0e9879e8d9338a1fd46602b93bb6007d3ec5c1a18f8af66f",
+      "upstream_path": "plugins/claude-md-management/.claude-plugin/plugin.json"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "upstream_path": "plugins/claude-md-management/LICENSE"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/README.md",
+      "sha256": "8abcb9ae663f21f0bd2cc2a07027d44cbccee9273f9701e6db8008a7ba8ce472",
+      "upstream_path": "plugins/claude-md-management/README.md"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/claude-md-improver-example.png",
+      "sha256": "a0b12357a8d8f9b1ba16692805344b8c4d03af2cc2eefcb70c68431b4350d1ad",
+      "upstream_path": "plugins/claude-md-management/claude-md-improver-example.png"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/commands/revise-claude-md.md",
+      "sha256": "d59ffd7ef2b793bdfda0efbeed6bb948cb9a455d1fe6cccb54fe4585788c68e9",
+      "upstream_path": "plugins/claude-md-management/commands/revise-claude-md.md"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/revise-claude-md-example.png",
+      "sha256": "3c424544efe3f581b0fd61312586553bb18be091988a064910a269fac2d91b55",
+      "upstream_path": "plugins/claude-md-management/revise-claude-md-example.png"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/skills/claude-md-improver/SKILL.md",
+      "sha256": "b06c7420be08ca1c7f6d75f7f4709fdb787624a2d363e2f8052216d8c780f85b",
+      "upstream_path": "plugins/claude-md-management/skills/claude-md-improver/SKILL.md"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/skills/claude-md-improver/references/quality-criteria.md",
+      "sha256": "383def16b05dca948297dd1acb33f007cb1b1b2c368454d424c5634348a8bab1",
+      "upstream_path": "plugins/claude-md-management/skills/claude-md-improver/references/quality-criteria.md"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/skills/claude-md-improver/references/templates.md",
+      "sha256": "de0aa3ac30120a0c77f9cd82738a75ed8326864f98feb89356a253f2deaf3ab0",
+      "upstream_path": "plugins/claude-md-management/skills/claude-md-improver/references/templates.md"
+    },
+    {
+      "integration": "claude-md-management",
+      "path": "integrations/vendor/claude-md-management/plugins/claude-md-management/skills/claude-md-improver/references/update-guidelines.md",
+      "sha256": "02a158d6ca41a0ab702a67a213e92205f09c073cea53796633251bc62fd7ec55",
+      "upstream_path": "plugins/claude-md-management/skills/claude-md-improver/references/update-guidelines.md"
+    },
+    {
+      "integration": "code-simplifier",
+      "path": "integrations/vendor/code-simplifier/plugins/code-simplifier/.claude-plugin/plugin.json",
+      "sha256": "f18fb26b2f03e95ad165a4333c73ecd292da18e74d2b89d89bd9848839f8d0e7",
+      "upstream_path": "plugins/code-simplifier/.claude-plugin/plugin.json"
+    },
+    {
+      "integration": "code-simplifier",
+      "path": "integrations/vendor/code-simplifier/plugins/code-simplifier/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "upstream_path": "plugins/code-simplifier/LICENSE"
+    },
+    {
+      "integration": "code-simplifier",
+      "path": "integrations/vendor/code-simplifier/plugins/code-simplifier/agents/code-simplifier.md",
+      "sha256": "2a51e8d210580d9f66ac2ed1226c41f9374565fc275da30d7bb95f65c2cc87bb",
+      "upstream_path": "plugins/code-simplifier/agents/code-simplifier.md"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "upstream_path": "LICENSE"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/SKILL.md",
+      "sha256": "b4d5f321543ba70952a9044863e2163bd6d905bbe4226cced3b3698a473faa39",
+      "upstream_path": "skills/continuous-learning-v2/SKILL.md"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/agents/observer-loop.sh",
+      "sha256": "a6d119252c8ff2eda7aa7b345c2254fd6bdaf14056f6b5bf54835a2738ff310d",
+      "upstream_path": "skills/continuous-learning-v2/agents/observer-loop.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/agents/observer.md",
+      "sha256": "320d50ff2965efeabd6f07c2be134e11da160293e958c1bc27c309d613839ad2",
+      "upstream_path": "skills/continuous-learning-v2/agents/observer.md"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/agents/session-guardian.sh",
+      "sha256": "ee6e4c0990f8d538cae1c85aa194e01e9ca2336e5d993ef68eb608b96cb0d82c",
+      "upstream_path": "skills/continuous-learning-v2/agents/session-guardian.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/agents/start-observer.sh",
+      "sha256": "6f5beed1e96f685c09ffa7f614f9673ba68f1466a60830252b8b9138efe05e84",
+      "upstream_path": "skills/continuous-learning-v2/agents/start-observer.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/config.json",
+      "sha256": "6f17e7a99aafe252ecd0b9212fb5f606be50b8ce1685f5a6435e46e87ffeb970",
+      "upstream_path": "skills/continuous-learning-v2/config.json"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/hooks/observe.sh",
+      "sha256": "80d7fc51e2ba6069a9c244d2662d905e4c297f5b5855bd252cb68a71bf42e6e6",
+      "upstream_path": "skills/continuous-learning-v2/hooks/observe.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/detect-project.sh",
+      "sha256": "43215ad15ce0c6585c13b1c45cbba6bf8df0dc459b663ddca77c0b86c459c283",
+      "upstream_path": "skills/continuous-learning-v2/scripts/detect-project.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/instinct-cli.py",
+      "sha256": "0b69c59fad38ccace3babee930b29cdf6d71bb3ac080eb001473737412f40193",
+      "upstream_path": "skills/continuous-learning-v2/scripts/instinct-cli.py"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/lib/homunculus-dir.sh",
+      "sha256": "99dfa99ae0f7c6e2e15ed5b5bf3c46e91a5f089f4060ba93d5da5e85e04fd308",
+      "upstream_path": "skills/continuous-learning-v2/scripts/lib/homunculus-dir.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/migrate-homunculus.sh",
+      "sha256": "34f121c143a676d330f06209618aae8cb08f8155298cb5fa70c893314bf9b303",
+      "upstream_path": "skills/continuous-learning-v2/scripts/migrate-homunculus.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/continuous-learning-v2/scripts/test_parse_instinct.py",
+      "sha256": "ef532da862e1482b62cabfafd9079036bd291a58327ac164d2cf67063711a51d",
+      "upstream_path": "skills/continuous-learning-v2/scripts/test_parse_instinct.py"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/eval-harness/SKILL.md",
+      "sha256": "3a5339a5a80099a5c9d55da9b6c8e05a690f5befc6f78d779c75dd79d818ca07",
+      "upstream_path": "skills/eval-harness/SKILL.md"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/skill-stocktake/SKILL.md",
+      "sha256": "3de326f8f87216b024bf524433b91607068d805286394d5ed8e293b4799b7314",
+      "upstream_path": "skills/skill-stocktake/SKILL.md"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/skill-stocktake/scripts/quick-diff.sh",
+      "sha256": "3a4afc27fc7f859ec7d477c1968102c897a9a2bb047d96129bcb8604e50935f7",
+      "upstream_path": "skills/skill-stocktake/scripts/quick-diff.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/skill-stocktake/scripts/save-results.sh",
+      "sha256": "e21d6804898f31fa92d31120d609a00d4f729ded8c740537889b2a5db44354c4",
+      "upstream_path": "skills/skill-stocktake/scripts/save-results.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/skill-stocktake/scripts/scan.sh",
+      "sha256": "c29042b996efd25ca2368f6b9bac5c3b69b02b8d877a84a4bff9c656413f5699",
+      "upstream_path": "skills/skill-stocktake/scripts/scan.sh"
+    },
+    {
+      "integration": "ecc",
+      "path": "integrations/vendor/ecc/skills/strategic-compact/SKILL.md",
+      "sha256": "1c3be090bffc100e31d185196cff0eb7075a877523cf41c19d781baca65b219f",
+      "upstream_path": "skills/strategic-compact/SKILL.md"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/LICENSE.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "upstream_path": "skills/skill-creator/LICENSE.txt"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/SKILL.md",
+      "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+      "upstream_path": "skills/skill-creator/SKILL.md"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/agents/analyzer.md",
+      "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+      "upstream_path": "skills/skill-creator/agents/analyzer.md"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/agents/comparator.md",
+      "sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+      "upstream_path": "skills/skill-creator/agents/comparator.md"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/agents/grader.md",
+      "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+      "upstream_path": "skills/skill-creator/agents/grader.md"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/assets/eval_review.html",
+      "sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+      "upstream_path": "skills/skill-creator/assets/eval_review.html"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/eval-viewer/generate_review.py",
+      "sha256": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb",
+      "upstream_path": "skills/skill-creator/eval-viewer/generate_review.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/eval-viewer/viewer.html",
+      "sha256": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa",
+      "upstream_path": "skills/skill-creator/eval-viewer/viewer.html"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/references/schemas.md",
+      "sha256": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f",
+      "upstream_path": "skills/skill-creator/references/schemas.md"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "upstream_path": "skills/skill-creator/scripts/__init__.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/aggregate_benchmark.py",
+      "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+      "upstream_path": "skills/skill-creator/scripts/aggregate_benchmark.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/generate_report.py",
+      "sha256": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453",
+      "upstream_path": "skills/skill-creator/scripts/generate_report.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/improve_description.py",
+      "sha256": "87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80",
+      "upstream_path": "skills/skill-creator/scripts/improve_description.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/package_skill.py",
+      "sha256": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f",
+      "upstream_path": "skills/skill-creator/scripts/package_skill.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/quick_validate.py",
+      "sha256": "67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365",
+      "upstream_path": "skills/skill-creator/scripts/quick_validate.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/run_eval.py",
+      "sha256": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f",
+      "upstream_path": "skills/skill-creator/scripts/run_eval.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/run_loop.py",
+      "sha256": "7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21",
+      "upstream_path": "skills/skill-creator/scripts/run_loop.py"
+    },
+    {
+      "integration": "skill-creator",
+      "path": "integrations/vendor/skill-creator/skills/skill-creator/scripts/utils.py",
+      "sha256": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1",
+      "upstream_path": "skills/skill-creator/scripts/utils.py"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/LICENSE",
+      "sha256": "c417f515c774c00d0c6c8e6f84d3993c3e87c78e316fac6d03ea5606e20b683d",
+      "upstream_path": "LICENSE"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/NOTICE",
+      "sha256": "dc4ac8a1a2c3e4c8921a05d79852ae748f717fd28e2c9998cdb4fcfa027c3ae1",
+      "upstream_path": "NOTICE"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/README.md",
+      "sha256": "de0d106ff6bac5137fe3467f3af51461c2612668c3d62f92c0577513fc59ce95",
+      "upstream_path": "skills/skilled-improve/README.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/SKILL.md",
+      "sha256": "af6c27f499c19088ee171d213b17378af795610aa2d684ea6f452a179fb78c93",
+      "upstream_path": "skills/skilled-improve/SKILL.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/assets/case.yaml.tmpl",
+      "sha256": "5f7d3d0945f5bd986fc7f77b1721ea9be324ebe5fc9187cdb7c8dd1d78e641f0",
+      "upstream_path": "skills/skilled-improve/assets/case.yaml.tmpl"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/assets/eval.yaml.tmpl",
+      "sha256": "fabf00c6b8c1f4ed612fd6c0996d3db44cf386cab6fcc3b181fe7268948f8aec",
+      "upstream_path": "skills/skilled-improve/assets/eval.yaml.tmpl"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/README.md",
+      "sha256": "29fce3562ee594166feb7b13d70eb5b3043df5c72cdd581f0ad3a0539419ea74",
+      "upstream_path": "skills/skilled-improve/evals/README.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/add-case-to-existing.yaml",
+      "sha256": "c8f2c54090022eb7f04f70718fe445fea4f6ac1af1e8a3f6c6b74867fbb72ca3",
+      "upstream_path": "skills/skilled-improve/evals/cases/add-case-to-existing.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/credential-presence-only.yaml",
+      "sha256": "8cd54c855db81cdbbd3a91ed5c7f3331f0e4f460b9abd36abf62118b836b4d94",
+      "upstream_path": "skills/skilled-improve/evals/cases/credential-presence-only.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/english-context-generates-english-only-cases.yaml",
+      "sha256": "cb8903ff938c3411f691e83348c155af8c1b895dd22869114960504ebffaee70",
+      "upstream_path": "skills/skilled-improve/evals/cases/english-context-generates-english-only-cases.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/evolve-existing-skill.yaml",
+      "sha256": "a87a26089d05a3da9be2d35b997883f9cc168b19d29fcec664c2114d37c46b11",
+      "upstream_path": "skills/skilled-improve/evals/cases/evolve-existing-skill.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/external-trace-review.yaml",
+      "sha256": "0b9c47b8a2983b6d27b5a4f8ab994a547c9017e7114c297751880eb0ef1d28dd",
+      "upstream_path": "skills/skilled-improve/evals/cases/external-trace-review.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/plan-without-mutation.yaml",
+      "sha256": "6ef25957d8bd219efa291dbc6a9abaac980b8afaa90ffe0865d0b34034d3ae7d",
+      "upstream_path": "skills/skilled-improve/evals/cases/plan-without-mutation.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/preserve-localized-regressions.yaml",
+      "sha256": "302c137f45842b48d3b10a0dc0d06360af3317ce5a5e800231293ca97aa1ec6e",
+      "upstream_path": "skills/skilled-improve/evals/cases/preserve-localized-regressions.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/scaffold-new-evals.yaml",
+      "sha256": "4702d988cc9d7f509466b4df702cf8cb3d2c0407b22e44b08cb4d9562acc959d",
+      "upstream_path": "skills/skilled-improve/evals/cases/scaffold-new-evals.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/scaffold-with-qodercli-engine.yaml",
+      "sha256": "e7eb56cbf382acb02b6fbbfa3fb74215bacd497a2c9bd9ba97728dd1764cfd38",
+      "upstream_path": "skills/skilled-improve/evals/cases/scaffold-with-qodercli-engine.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/scaffold-with-script-judge.yaml",
+      "sha256": "ba074a5468dfc2f312f652f596aa07fb5a515ecb94f9f5ad9aa4e22a8044a7ce",
+      "upstream_path": "skills/skilled-improve/evals/cases/scaffold-with-script-judge.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/cases/scaffold-with-user-simulator.yaml",
+      "sha256": "193f668e158e32582ac58fc3fe8fb622841674326231d5dca6eb7419c52af209",
+      "upstream_path": "skills/skilled-improve/evals/cases/scaffold-with-user-simulator.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/eval-dashscope.yaml",
+      "sha256": "ba650c808b707d8a12814f45e524524317751cb4ad1678e3723747c625d1d7af",
+      "upstream_path": "skills/skilled-improve/evals/eval-dashscope.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/eval.yaml",
+      "sha256": "e93fbff0f6682ca525a58ba93c587a2667e1cef923a6268858b5525681e5d395",
+      "upstream_path": "skills/skilled-improve/evals/eval.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/scripts/assert-credential-presence.sh",
+      "sha256": "c7b872868a1645d9bf80d17a91693f268c2ad526e87123a865549e21683da300",
+      "upstream_path": "skills/skilled-improve/evals/fixtures/scripts/assert-credential-presence.sh"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/scripts/assert-english-only-generated-cases.sh",
+      "sha256": "158dc65875bbb20bc241f2ef5bbedc4bbdf846f258916343fc66b0b9d9bc94a8",
+      "upstream_path": "skills/skilled-improve/evals/fixtures/scripts/assert-english-only-generated-cases.sh"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/scripts/assert-localized-regressions.sh",
+      "sha256": "ed58f33f5695f784980c33bc6758ffadec24291fe463f35e08eb1d557ab80e14",
+      "upstream_path": "skills/skilled-improve/evals/fixtures/scripts/assert-localized-regressions.sh"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/scripts/assert-read-only-plan.sh",
+      "sha256": "ca7ca9e76daeebd5aba8ec3ea99a5dfb55e887f02d009fa4c3576b5b9759e807",
+      "upstream_path": "skills/skilled-improve/evals/fixtures/scripts/assert-read-only-plan.sh"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/skills/sample-no-evals/SKILL.md",
+      "sha256": "d33f46a33b55ee9d4074c6b19dc993118a0d1318e3ce77eb78ca84dfcd798a79",
+      "upstream_path": "skills/skilled-improve/evals/fixtures/skills/sample-no-evals/SKILL.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/skills/sample-with-evals/SKILL.md",
+      "sha256": "73c5089b7c08bcc3b78573d7a6027ccb62338b4f017764f86e512f75ab3b8582",
+      "upstream_path": "skills/skilled-improve/evals/fixtures/skills/sample-with-evals/SKILL.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/skills/sample-with-evals/evals/cases/add-todo.yaml",
+      "sha256": "ee578c3236bed375ec5cab9943253eb5f21b8e1765ae754eba6105989e6779bf",
+      "upstream_path": "skills/skilled-improve/evals/fixtures/skills/sample-with-evals/evals/cases/add-todo.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/fixtures/skills/sample-with-evals/evals/eval.yaml",
+      "sha256": "06ed5baceeef7c3f05dae3fa442b4f091e5959e9c752cea1651880e20d7cfa41",
+      "upstream_path": "skills/skilled-improve/evals/fixtures/skills/sample-with-evals/evals/eval.yaml"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/requirements.txt",
+      "sha256": "b4603b9468ade4d639d2c6f73b89d50e1fa5d227c73ab15be0382cca478513e6",
+      "upstream_path": "skills/skilled-improve/evals/requirements.txt"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/evals/test_regression_scripts.py",
+      "sha256": "6ca4d46d8330b8fc7750a8fcbf02b6b67ba6ed4e5b0e0cad607f69f2cf09e732",
+      "upstream_path": "skills/skilled-improve/evals/test_regression_scripts.py"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/case-yaml.md",
+      "sha256": "38c532f756f28d8855df60ff601102fdf1ba6b4568d66a1ef10ed8db714fd485",
+      "upstream_path": "skills/skilled-improve/references/case-yaml.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/cli.md",
+      "sha256": "fb719d473e77f1e90a50199e633130a033cf3bff6fe4f643d7e7c6de8f3de6a5",
+      "upstream_path": "skills/skilled-improve/references/cli.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/eval-yaml.md",
+      "sha256": "a9233a4bb1e60b2c2e8819604b2fc6df1092d683d7dc4ff85f3f7f3a55809e4b",
+      "upstream_path": "skills/skilled-improve/references/eval-yaml.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/install.md",
+      "sha256": "5e03e38c42ca768c332231c56b7357d1a48e6566eeec30728bd74c300298f735",
+      "upstream_path": "skills/skilled-improve/references/install.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/judge-types.md",
+      "sha256": "23d55d6faa0a85d13b47df8abf2f94be26bdbc520b7678b42af27244a4e202a9",
+      "upstream_path": "skills/skilled-improve/references/judge-types.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/migrate-anthropic.md",
+      "sha256": "f7b6b08bfb1a7bfa273cd3974aad483561efe52ce544e186f26bc7f11795a248",
+      "upstream_path": "skills/skilled-improve/references/migrate-anthropic.md"
+    },
+    {
+      "integration": "skilled",
+      "path": "integrations/vendor/skilled/skills/skilled-improve/references/observations.md",
+      "sha256": "3cfd95e97eac29891c5caa3bb62a08f2b60433e393215eafe3f07bb7d1784856",
+      "upstream_path": "skills/skilled-improve/references/observations.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/LICENSE",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "upstream_path": "LICENSE"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/brainstorming/SKILL.md",
+      "sha256": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207",
+      "upstream_path": "skills/brainstorming/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/brainstorming/builder-check-prompt.md",
+      "sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+      "upstream_path": "skills/brainstorming/builder-check-prompt.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/frame-template.html",
+      "sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+      "upstream_path": "skills/brainstorming/scripts/frame-template.html"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/helper.js",
+      "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+      "upstream_path": "skills/brainstorming/scripts/helper.js"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/server.cjs",
+      "sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
+      "upstream_path": "skills/brainstorming/scripts/server.cjs"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/start-server.sh",
+      "sha256": "314dd68dc00e8dd94c7491aca8a5f004c7fddffc161e2b07482f29f48d13659a",
+      "upstream_path": "skills/brainstorming/scripts/start-server.sh"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/brainstorming/scripts/stop-server.sh",
+      "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+      "upstream_path": "skills/brainstorming/scripts/stop-server.sh"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/brainstorming/visual-companion.md",
+      "sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2",
+      "upstream_path": "skills/brainstorming/visual-companion.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/SKILL.md",
+      "sha256": "3143de8695c5a2d63e8b1675f33837578076f464deb127c2ebdd0b46fceef886",
+      "upstream_path": "skills/diagnosing-superpowers/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/analyst-common.md",
+      "sha256": "88801c36070be2a54a8a9a29632b01ab21db053e2e76ee49b5252a9b74ca4090",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/analyst-common.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/cost-and-time.md",
+      "sha256": "fe97a66d4db3b436816ef82694bda413b522b3a862dd41978da01e358fffecc4",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/cost-and-time.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/plan-adherence.md",
+      "sha256": "1dcbab82033598a2e9c9ee42e950d4b1822d2c871c02cef9e102cdd5cbbda113",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/plan-adherence.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/quality-evidence.md",
+      "sha256": "749d11cf678f379ed77a29274cad456634e0284aa523639a1a214a9f2b986eb1",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/quality-evidence.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/repeated-work.md",
+      "sha256": "895027f2dfa4b1b8bcdb7ac9aec8d45a80bff212fad6ec6cad5ab38fa68322f5",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/repeated-work.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/request-conflicts.md",
+      "sha256": "e800e38d8b7752c212c76c5c3ed75cd78b749684263ea0c313586f26af6f4b5c",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/request-conflicts.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/scrub-audit.md",
+      "sha256": "5cc48f05a7f81f5f7e05e0c7ceafc0fb8774bcaf75fe88dcb5c7e408026c70ad",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/scrub-audit.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/scrub.md",
+      "sha256": "854cb3320cc5377b493cea2f72519d67983464882db68a0f408a7d0a0f040b8c",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/scrub.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/similar-session.md",
+      "sha256": "b190f713b463df2bb5ec3914647e204074d1bd50643a53159db6d13cace916c1",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/similar-session.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/skill-timeline.md",
+      "sha256": "45d604d583b57a77b9033eced8eb875ef342af70fcd66cf7d15c6dc89964890f",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/skill-timeline.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/prompts/stumbles.md",
+      "sha256": "1f2d1f048aff7b8b400006301f1ce8c232ecc7e9d5f705af27a849b2c03ea2e7",
+      "upstream_path": "skills/diagnosing-superpowers/prompts/stumbles.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/references/context-safety.md",
+      "sha256": "e6be2bd3495f454d4bedee9484d728d245d1fa656e11fc4ceec5693c16e4730a",
+      "upstream_path": "skills/diagnosing-superpowers/references/context-safety.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/references/github-issues.md",
+      "sha256": "d26ef9197b4a6ae5159ae6d11abd162bcc624d95fc7ccf508e07b68f916a1b19",
+      "upstream_path": "skills/diagnosing-superpowers/references/github-issues.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/references/redaction-policy.md",
+      "sha256": "96b16f47074838fe2d7e609577d6f8b0ad460f8378b281a3f96ee23cb5a08bde",
+      "upstream_path": "skills/diagnosing-superpowers/references/redaction-policy.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/references/session-discovery.md",
+      "sha256": "6d1dced083e5d978448a78df298cf515531b0eb39b2854a4a2afbffeb69a7435",
+      "upstream_path": "skills/diagnosing-superpowers/references/session-discovery.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/templates/bundle-README.md",
+      "sha256": "2e6ddc6b106028d5ebd00a50ad93a77111d675c219ee1273cd0857869e8d51ec",
+      "upstream_path": "skills/diagnosing-superpowers/templates/bundle-README.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/templates/case.md",
+      "sha256": "597892462be83bc478536ec91f7c285f6dd25d119c560734a3a180fe8471301d",
+      "upstream_path": "skills/diagnosing-superpowers/templates/case.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/templates/issue.md",
+      "sha256": "afd21779e5de5bc5adfe2f5a50a04e44ab8d50d9ad0f829243de248d6f023eed",
+      "upstream_path": "skills/diagnosing-superpowers/templates/issue.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/diagnosing-superpowers/templates/report.md",
+      "sha256": "38295d0fd785e8608f330815c59ebd7047942002ec7085aecbed54681f56b0c1",
+      "upstream_path": "skills/diagnosing-superpowers/templates/report.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/dispatching-parallel-agents/SKILL.md",
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "upstream_path": "skills/dispatching-parallel-agents/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/executing-plans/SKILL.md",
+      "sha256": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5",
+      "upstream_path": "skills/executing-plans/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/executing-plans/scripts/task-done",
+      "sha256": "ac0b5ebafc7d471507b7e94d88da77a11f187ba277c8d48fefaf8ff3e4fee50e",
+      "upstream_path": "skills/executing-plans/scripts/task-done"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/executing-plans/scripts/task-start",
+      "sha256": "4ae7ce3b6777c3240af786197836a6b4bbf3b0ee831c25f147c149ea8db54a21",
+      "upstream_path": "skills/executing-plans/scripts/task-start"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/finishing-a-development-branch/SKILL.md",
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+      "upstream_path": "skills/finishing-a-development-branch/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/receiving-code-review/SKILL.md",
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "upstream_path": "skills/receiving-code-review/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/requesting-code-review/SKILL.md",
+      "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+      "upstream_path": "skills/requesting-code-review/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/requesting-code-review/code-reviewer.md",
+      "sha256": "82e370be6b3447523816286195571e4216ba56ba1ad6ad0e87862294c4c78dcb",
+      "upstream_path": "skills/requesting-code-review/code-reviewer.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/SKILL.md",
+      "sha256": "1baf70e307bde682c462513c86116333f1f066168c6710f45145bf5f0b00828d",
+      "upstream_path": "skills/subagent-driven-development/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/implementer-prompt.md",
+      "sha256": "81dd9d5a3fb0b09b96b5829f03b9796842f3199ef7591d1ba1c2db2a515f64d0",
+      "upstream_path": "skills/subagent-driven-development/implementer-prompt.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/re-review-prompt.md",
+      "sha256": "ad54d0a10f1c2c8e656456e0a46e654af5dfe5ee6bcef63428cfd69b8dcd9311",
+      "upstream_path": "skills/subagent-driven-development/re-review-prompt.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/batching.md",
+      "sha256": "b54dc7e23dbfb90db89bcb2fb3af591aabf6a271a165fbc0da4c6f9439980eac",
+      "upstream_path": "skills/subagent-driven-development/references/batching.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/cannot-verify.md",
+      "sha256": "e698713a15e0eabf1a2ab26ffe1bb04bf70c9d6d2e2060d44a0f9a1bdd4408bf",
+      "upstream_path": "skills/subagent-driven-development/references/cannot-verify.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/final-review.md",
+      "sha256": "6c9e12093e46c4ad0a203bc07709c17e3470f855f1b78e55c5e7b722a012a32c",
+      "upstream_path": "skills/subagent-driven-development/references/final-review.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/fix-loop.md",
+      "sha256": "1938ce707915efc44021e563ebc29666329e20ad861b6c50b89f305b8f4e8d8b",
+      "upstream_path": "skills/subagent-driven-development/references/fix-loop.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/handling-reports.md",
+      "sha256": "8f759cdd4936220c38aab05b6d6c48c6df8ac8f146b0f37a6d2facbf87133c67",
+      "upstream_path": "skills/subagent-driven-development/references/handling-reports.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/preflight.md",
+      "sha256": "3ea21c5fc1af1a190ac8a9d19ceb0849b47bf2ffe27b87dffcc21b6a0539776c",
+      "upstream_path": "skills/subagent-driven-development/references/preflight.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/references/resuming.md",
+      "sha256": "ff6e38bde2276faa2a7e93513086caded0ea10edbf2ec7f349a7e3b0d7c668c4",
+      "upstream_path": "skills/subagent-driven-development/references/resuming.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/scripts/review-package",
+      "sha256": "aed7c6e09fc660417d28898ed975e84651cb9f18f4675141cd475edfb7037f3d",
+      "upstream_path": "skills/subagent-driven-development/scripts/review-package"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/scripts/sdd-repo",
+      "sha256": "6f8256a776968d394bae679572e41ce572fd45c72074b98f9a8eb8b4f160e06f",
+      "upstream_path": "skills/subagent-driven-development/scripts/sdd-repo"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/scripts/sdd-workspace",
+      "sha256": "de3af5252fa595fc2000ba05cf69e06187d5c8aae9d283cced4c167ad1813061",
+      "upstream_path": "skills/subagent-driven-development/scripts/sdd-workspace"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/scripts/task-brief",
+      "sha256": "0f244a12e146393c552ba62069d3eedcc85cb3f76de67b01f4e11219e5ebbcd8",
+      "upstream_path": "skills/subagent-driven-development/scripts/task-brief"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/subagent-driven-development/task-reviewer-prompt.md",
+      "sha256": "61a04c2fb29907887d8babee1594f5e35ae26d461e7e584f5b7c283215165e08",
+      "upstream_path": "skills/subagent-driven-development/task-reviewer-prompt.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/SKILL.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "upstream_path": "skills/systematic-debugging/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/condition-based-waiting-example.ts",
+      "sha256": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+      "upstream_path": "skills/systematic-debugging/condition-based-waiting-example.ts"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/condition-based-waiting.md",
+      "sha256": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+      "upstream_path": "skills/systematic-debugging/condition-based-waiting.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/defense-in-depth.md",
+      "sha256": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+      "upstream_path": "skills/systematic-debugging/defense-in-depth.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/find-polluter.sh",
+      "sha256": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c",
+      "upstream_path": "skills/systematic-debugging/find-polluter.sh"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/systematic-debugging/root-cause-tracing.md",
+      "sha256": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8",
+      "upstream_path": "skills/systematic-debugging/root-cause-tracing.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/test-driven-development/SKILL.md",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "upstream_path": "skills/test-driven-development/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/test-driven-development/writing-good-tests.md",
+      "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1",
+      "upstream_path": "skills/test-driven-development/writing-good-tests.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-git-worktrees/SKILL.md",
+      "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+      "upstream_path": "skills/using-git-worktrees/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/SKILL.md",
+      "sha256": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+      "upstream_path": "skills/using-superpowers/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/antigravity-tools.md",
+      "sha256": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
+      "upstream_path": "skills/using-superpowers/references/antigravity-tools.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/claude-code-tools.md",
+      "sha256": "21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b",
+      "upstream_path": "skills/using-superpowers/references/claude-code-tools.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/codex-tools.md",
+      "sha256": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7",
+      "upstream_path": "skills/using-superpowers/references/codex-tools.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/gemini-tools.md",
+      "sha256": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
+      "upstream_path": "skills/using-superpowers/references/gemini-tools.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/hermes-tools.md",
+      "sha256": "e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190",
+      "upstream_path": "skills/using-superpowers/references/hermes-tools.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/muse-tools.md",
+      "sha256": "5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3",
+      "upstream_path": "skills/using-superpowers/references/muse-tools.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/using-superpowers/references/pi-tools.md",
+      "sha256": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5",
+      "upstream_path": "skills/using-superpowers/references/pi-tools.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "upstream_path": "skills/verification-before-completion/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-plans/SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+      "upstream_path": "skills/writing-plans/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/SKILL.md",
+      "sha256": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe",
+      "upstream_path": "skills/writing-skills/SKILL.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/CLAUDE_MD_TESTING.md",
+      "sha256": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+      "upstream_path": "skills/writing-skills/references/CLAUDE_MD_TESTING.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/anthropic-best-practices.md",
+      "sha256": "217629b356c09c9bd11017c9788e8fc654ca1b32c92d4a51cd490e16dd65e59a",
+      "upstream_path": "skills/writing-skills/references/anthropic-best-practices.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/bulletproofing.md",
+      "sha256": "9397023e6bc85b556a57f3097371363bf03e28e755c57f403f470bcda90e0a23",
+      "upstream_path": "skills/writing-skills/references/bulletproofing.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/discovery.md",
+      "sha256": "c6bbc74af3be90f693f7cbc986af6fa94e8df75f65109b52e96032587f5b92af",
+      "upstream_path": "skills/writing-skills/references/discovery.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/flowcharts.md",
+      "sha256": "8b1f542391f274f0d33f3457ac099a3d317d6877eaa3b8d3b1ebef151b55fda7",
+      "upstream_path": "skills/writing-skills/references/flowcharts.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/graphviz-conventions.dot",
+      "sha256": "e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+      "upstream_path": "skills/writing-skills/references/graphviz-conventions.dot"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/persuasion-principles.md",
+      "sha256": "a51bc9bf75189ea73a27b3fb504a2fdfdb966fb1f7f1cdf03203230a216ccc03",
+      "upstream_path": "skills/writing-skills/references/persuasion-principles.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/references/testing-skills-with-subagents.md",
+      "sha256": "ed8a6862c085900135962390530d9dc7637ad6d650b4324ce3b051287a5c3f22",
+      "upstream_path": "skills/writing-skills/references/testing-skills-with-subagents.md"
+    },
+    {
+      "integration": "superpowers",
+      "path": "integrations/vendor/superpowers/skills/writing-skills/render-graphs.js",
+      "sha256": "c7f412cc629461c4d10287e668731874c0497707023e3e3f74a5355eb2cee196",
+      "upstream_path": "skills/writing-skills/render-graphs.js"
+    }
+  ]
+}

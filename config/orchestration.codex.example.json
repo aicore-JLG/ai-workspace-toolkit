@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "project": "examples/orchestration-project",
+  "objective": "Repair the two independent synthetic defects, pass the unchanged acceptance checks, and obtain a fresh independent review before any explicit source application.",
+  "inputs": [
+    "total.py",
+    "label.py",
+    "test_demo.py",
+    "PROJECT.md",
+    "PROJECT-RULES.md",
+    "SESSION-STATE.md",
+    "AGENTS.md",
+    "CLAUDE.md"
+  ],
+  "checks": "checks.json",
+  "max_workers": 2,
+  "max_attempts": 1,
+  "timeout_seconds": 120,
+  "models": {
+    "codex": {
+      "gpt-6.2-sol": [
+        "medium"
+      ],
+      "gpt-6.2-astra": [
+        "high"
+      ]
+    }
+  },
+  "jobs": [
+    {
+      "id": "fix-total",
+      "role": "builder",
+      "provider": "codex",
+      "model": "gpt-6.2-sol",
+      "effort": "medium",
+      "task": "Repair total_cents in total.py so every nonnegative integer amount contributes exactly once, including a one-item list. Preserve empty-list behavior, input validation and nonmutation. Return only a replacement for total.py; do not modify the fixed tests or claim to have executed them.",
+      "depends_on": [],
+      "inputs": [
+        "total.py",
+        "test_demo.py"
+      ],
+      "outputs": [
+        "total.py"
+      ]
+    },
+    {
+      "id": "fix-label",
+      "role": "builder",
+      "provider": "codex",
+      "model": "gpt-6.2-sol",
+      "effort": "medium",
+      "task": "Repair task_label in label.py to trim leading and trailing whitespace while preserving internal whitespace, the Task: prefix and invalid-input rejection. Return only a replacement for label.py; do not modify the fixed tests or claim to have executed them.",
+      "depends_on": [],
+      "inputs": [
+        "label.py",
+        "test_demo.py"
+      ],
+      "outputs": [
+        "label.py"
+      ]
+    }
+  ],
+  "reviewer": {
+    "provider": "codex",
+    "model": "gpt-6.2-astra",
+    "effort": "high"
+  }
+}

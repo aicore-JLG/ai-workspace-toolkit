@@ -1,0 +1,5 @@
+{
+  "command": ["{python}", "-B", "test_demo.py"],
+  "inputs": ["total.py", "label.py", "test_demo.py", "PROJECT.md", "PROJECT-RULES.md"],
+  "timeout_seconds": 15
+}

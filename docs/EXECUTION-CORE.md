@@ -1,0 +1,17 @@
+# Bounded local execution
+
+`tools/run.py` and `tools/integrations.py` use the same foreground capture and cooperative resource lease. Integration runtime commands, installation subprocesses and Doppler children now produce private operation receipts in `.workspace/runs/`. A receipt records status, exit code, elapsed time, limits and argument hashes. It does not store raw arguments.
+
+`config/foundation.json` supplies integration execution limits: 120 seconds and 65,536 combined output bytes by default. Each installation subprocess receives those limits; a Python installation has two subprocesses. The validated maximum timeout is 600 seconds and output maximum is 1 MiB. Release downloads retain their separate 90-second network timeout, 150 MiB download limit and pinned digest verification. They are not subprocess jobs.
+
+Regular integration output goes into a bounded private log with best-effort redaction. The command line prints a receipt with its log path, including when you request an integration's `--help` or `--version`. Logs can contain project information; never redistribute `.workspace/`. Install subprocess output is discarded. Doppler stdout and stderr are discarded without buffering content or creating a log, including through the generic integration route: secret values cannot reliably be known by the parent for redaction. The child may still write files or contact services itself.
+
+Timeouts, excessive output, failed launches, nonzero exit codes and interrupted runs cannot produce a successful receipt. Ctrl+C during foreground polling stops the process tree on a best-effort basis and records cancellation. An unresolved inherited output pipe retains the lease and requires inspection. Forcefully terminating the wrapper can leave an interrupted lease rather than a completion receipt. Do not clear a lease until its owner and children have been inspected.
+
+The separate verification route, `tools/verify.py`, discards command output and uses its own verification lock. Graceful cancellation stops/reaps the ordinary child process tree, records `cancelled`, invalidates older success and returns exit code 130. If tree cleanup cannot be confirmed, the verification lock remains and status reports running/interrupted rather than success. An unexpected interruption before the replacement receipt is saved also retains the lock; inspect the owner and children before recovery.
+
+Windows npm and skillEd launch through native Node entrypoints rather than command-shell shims. The generic `run.json` partial guard remains unchanged; accepting a vetted native executable path through the integration API does not grant a new generic shell bypass.
+
+These controls apply when using these CLI routes. They are not an OS sandbox, a network policy, a model spending limit or a guarantee against deliberately detached children. They do not enforce limits on tools launched directly by an AI host. No retry, background service, authenticated call or paid model evaluation is enabled. Integration receipts bind the launch arguments and supplied catalog identity, not every installed dependency or a later runtime health check.
+
+Skill activation also requires a current local hygiene scan and source-review attestation through `tools/skill_review.py`. The gate is checked before staging and before activation. Source edits invalidate it. This is content-bound review bookkeeping, not malware certification or an independent identity guarantee.

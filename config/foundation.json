@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "execution": {
+    "timeout_seconds": 120,
+    "max_output_bytes": 65536
+  },
+  "maintenance": {
+    "state_line_limit": 150
+  }
+}

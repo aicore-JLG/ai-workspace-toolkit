@@ -1,0 +1,19 @@
+{
+  "example_only": true,
+  "skill": "path/to/candidate",
+  "objective": "Define the user-visible outcome",
+  "baseline_revision": "",
+  "candidate_revision": "",
+  "engine": "",
+  "model": "",
+  "cases": [],
+  "holdouts": [],
+  "acceptance": {
+    "required_cases_pass": true,
+    "no_regressions": true
+  },
+  "budget": {
+    "paid_calls_authorized": false
+  },
+  "reports_directory": ".workspace/reports/evaluations/"
+}

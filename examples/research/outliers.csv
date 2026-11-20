@@ -1,0 +1,7 @@
+record,cohort,role,views
+sample-a,synthetic-comparable-posts,baseline,80
+sample-b,synthetic-comparable-posts,baseline,100
+sample-c,synthetic-comparable-posts,baseline,100
+sample-d,synthetic-comparable-posts,baseline,110
+sample-e,synthetic-comparable-posts,baseline,120
+sample-f,synthetic-comparable-posts,candidate,400

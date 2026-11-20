@@ -1,0 +1,5 @@
+{
+  "name": "workspace-browser-example",
+  "private": true,
+  "scripts": {"test": "playwright test"}
+}

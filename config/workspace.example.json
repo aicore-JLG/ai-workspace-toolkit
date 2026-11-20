@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "memory": {
+    "primary": "local-curated",
+    "automatic_capture": false
+  },
+  "learning": {
+    "ecc_observer": false,
+    "promotion": "reviewed-candidate"
+  },
+  "maintenance": {
+    "mode": "suggest",
+    "automatic_deletion": false
+  },
+  "evaluations": {
+    "engine": "recipient-selected",
+    "paid_runs_enabled": false
+  },
+  "security": {
+    "static_scan_before_activation": true,
+    "runtime_sandbox": "configure-in-host"
+  },
+  "doppler": {
+    "project": "YOUR_PROJECT",
+    "config": "YOUR_CONFIG",
+    "variable_names": [
+      "API_KEY"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "{python}",
+    "-B",
+    "summary.py"
+  ],
+  "inputs": [
+    "summary.py",
+    "tasks.json"
+  ],
+  "timeout_seconds": 30,
+  "max_output_bytes": 65536
+}

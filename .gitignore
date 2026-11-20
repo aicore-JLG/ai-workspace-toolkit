@@ -1,0 +1,21 @@
+# Convenience only: these patterns do not secure or remove data.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
+.workspace/
+playwright-report/
+test-results/
+docs/session-history/setup-backup/
+.mcp.json
+.doppler/
+config/workspace.local.json
+Memory/private/
+**/.desloppify/

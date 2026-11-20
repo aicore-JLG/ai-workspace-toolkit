@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "departments": {
+    "engineering": {
+      "purpose": "Build or change an application with clear acceptance checks.",
+      "planner": "roles/planner.md",
+      "maker": "roles/builder.md",
+      "reviewer": "roles/reviewer.md",
+      "tool_suggestions": ["python", "node", "git", "rg"]
+    },
+    "web-design": {
+      "purpose": "Design and implement a website, then inspect the visible result.",
+      "planner": "roles/planner.md",
+      "maker": "roles/web-designer.md",
+      "reviewer": "roles/reviewer.md",
+      "tool_suggestions": ["node", "git", "rg", "playwright-cli"]
+    },
+    "funnel": {
+      "purpose": "Develop an offer journey and its pages from supplied evidence.",
+      "planner": "roles/planner.md",
+      "maker": "roles/funnel-strategist.md",
+      "reviewer": "roles/reviewer.md",
+      "tool_suggestions": ["agent-reach", "playwright-cli"]
+    },
+    "copy": {
+      "purpose": "Draft useful copy from an explicit audience, offer and source material.",
+      "planner": "roles/planner.md",
+      "maker": "roles/copywriter.md",
+      "reviewer": "roles/reviewer.md",
+      "tool_suggestions": ["rg", "agent-reach"]
+    },
+    "email": {
+      "purpose": "Draft an email or sequence for review, without sending it.",
+      "planner": "roles/planner.md",
+      "maker": "roles/email-writer.md",
+      "reviewer": "roles/reviewer.md",
+      "tool_suggestions": ["rg"]
+    },
+    "research": {
+      "purpose": "Answer a bounded research question with traceable evidence and limitations.",
+      "planner": "roles/planner.md",
+      "maker": "roles/researcher.md",
+      "reviewer": "roles/reviewer.md",
+      "tool_suggestions": ["agent-reach", "gh", "rg"]
+    },
+    "debugging": {
+      "purpose": "Reproduce a defect, identify its cause, then verify a scoped repair.",
+      "planner": "roles/planner.md",
+      "maker": "roles/debugger.md",
+      "reviewer": "roles/reviewer.md",
+      "tool_suggestions": ["python", "node", "git", "rg", "playwright-cli"]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Learn mode"
+  short_description: "Learn from actual code, decisions and checks"
+  default_prompt: "Use $learn-mode to teach me while we work on this project."
+policy:
+  allow_implicit_invocation: false
